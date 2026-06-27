@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "agency",
+	"name": "Agency",
+	"groups": [
+		{ "name": "Clients", "slug": "clients" },
+		{ "name": "Partners", "slug": "partners" }
+	],
+	"testimonials": [
+		{
+			"title": "Emma Thompson",
+			"content": "Onboarding was effortless and the results showed within the first month. The team genuinely cares about our success.",
+			"meta": { "company": "Brightwave", "designation": "CEO", "location": "Austin, USA", "rating": "5", "verified": "1" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/emma.png"
+		},
+		{
+			"title": "James Carter",
+			"content": "A polished product backed by responsive, knowledgeable support. It quickly became a core part of our workflow.",
+			"meta": { "company": "Nimbus Tech", "designation": "Product Lead", "location": "Toronto, Canada", "rating": "5" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/james.png"
+		},
+		{
+			"title": "Sofia Rossi",
+			"content": "Beautiful out of the box and easy to tailor to our brand. Our customers notice the difference.",
+			"meta": { "company": "Bella Studio", "designation": "Founder", "location": "Milan, Italy", "rating": "4", "verified": "1" },
+			"groups": [ "partners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/sofia.png"
+		},
+		{
+			"title": "Liam Walsh",
+			"content": "Lightweight, fast and reliable. Exactly what we needed without the bloat of bigger plugins.",
+			"meta": { "company": "Northpeak", "designation": "CTO", "location": "Dublin, Ireland", "rating": "5" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/liam.png"
+		},
+		{
+			"title": "Olivia Chen",
+			"content": "Social proof that actually converts. Setup took minutes and the layouts look fantastic on every device.",
+			"meta": { "company": "Lumen Co", "designation": "Marketing Director", "location": "Singapore", "rating": "5", "verified": "1" },
+			"groups": [ "partners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/olivia.png"
+		},
+		{
+			"title": "Noah Williams",
+			"content": "Simple to manage and the support team is outstanding. Highly recommended for any small business.",
+			"meta": { "company": "Craft & Co", "designation": "Owner", "location": "Melbourne, Australia", "rating": "4" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/noah.png"
+		}
+	]
+}
