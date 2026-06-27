@@ -1,0 +1,23 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"minimum_plugin_version": "2.0.2",
+	"demos": [
+		{
+			"id": "agency",
+			"name": "Agency",
+			"description": "Six client testimonials with ratings, companies, locations and verified badges — ideal for agencies and studios.",
+			"version": "1.0",
+			"updated": "2026-06-27",
+			"requires": "2.0.2",
+			"category": "Business",
+			"tags": [ "agency", "clients", "business" ],
+			"featured": true,
+			"new": true,
+			"preview": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/previews/agency.jpg",
+			"preview_width": 1200,
+			"preview_height": 675,
+			"file": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/demos/agency.json"
+		}
+	]
+}
