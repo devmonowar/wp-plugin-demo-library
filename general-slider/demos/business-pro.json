@@ -7,26 +7,29 @@
 	"title": "Business Pro",
 	"slides": [
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/business-pro-1.jpg",
-			"sub_heading": "WORDPRESS DEVELOPMENT",
-			"heading": "Build with confidence",
-			"text": "Clean, fast, standards-first plugins and websites.",
-			"btn_text": "View work",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/wordpress-developer-team-presentation.jpg",
+			"alt": "WordPress developer presenting a website project to a team in a modern office",
+			"sub_heading": "WORDPRESS DEVELOPER",
+			"heading": "Websites that work as hard as you do",
+			"text": "Fast, secure, SEO-ready WordPress sites built to grow your business.",
+			"btn_text": "View my work",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/business-pro-2.jpg",
-			"sub_heading": "OPEN SOURCE",
-			"heading": "Code you can trust",
-			"text": "Lightweight, accessible, and built to last.",
-			"btn_text": "Explore plugins",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/professional-business-consulting-meeting.jpg",
+			"alt": "Professional team discussing a web development project at a business meeting",
+			"sub_heading": "EXPERTISE YOU CAN TRUST",
+			"heading": "Clean code, real results",
+			"text": "Performance, accessibility and SEO built into every project.",
+			"btn_text": "About me",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/business-pro-3.jpg",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/web-development-team-collaboration.jpg",
+			"alt": "Web development team collaborating in a bright modern office",
 			"sub_heading": "LET'S WORK TOGETHER",
-			"heading": "Your next project, done right",
-			"text": "From the first idea to launch — with care at every step.",
+			"heading": "Your next project starts here",
+			"text": "Clear communication, delivered on time and on budget.",
 			"btn_text": "Get in touch",
 			"btn_url": "#"
 		}
@@ -35,11 +38,11 @@
 		"preset": "hero",
 		"transition": "fade",
 		"autoplay": true,
-		"speed": 5000,
+		"speed": 5500,
 		"loop": true,
 		"arrows": true,
 		"dots": true,
-		"overlay": 30,
+		"overlay": 45,
 		"overlay_style": "gradient",
 		"height": 600,
 		"focus": "center",
@@ -51,5 +54,5 @@
 		"animate": true,
 		"thumbnails": false
 	},
-	"custom_css": ""
+	"custom_css": ".gs-slider .gs-slide__title,.gs-slider .gs-slide__sub,.gs-slider .gs-slide__text{text-shadow:0 2px 14px rgba(0,0,0,.55)}"
 }
