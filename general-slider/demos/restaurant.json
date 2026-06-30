@@ -7,26 +7,29 @@
 	"title": "Restaurant",
 	"slides": [
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/restaurant-1.jpg",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/gourmet-steak-fine-dining-restaurant.jpg",
+			"alt": "Gourmet steak dish garnished with an edible flower at a fine dining restaurant",
 			"sub_heading": "FRESH DAILY",
 			"heading": "Taste the difference",
-			"text": "Seasonal dishes made from scratch.",
+			"text": "Seasonal dishes crafted from the finest ingredients.",
 			"btn_text": "View menu",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/restaurant-2.jpg",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/fine-dining-tasting-menu-dishes.jpg",
+			"alt": "A selection of plated tasting-menu dishes on a restaurant table",
 			"sub_heading": "BOOK A TABLE",
 			"heading": "Dinner, reimagined",
-			"text": "Warm ambience and unforgettable flavours.",
+			"text": "Warm ambience and flavours you won't forget.",
 			"btn_text": "Reserve now",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/restaurant-3.jpg",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/gourmet-salmon-restaurant-plating.jpg",
+			"alt": "Elegantly plated gourmet salmon fillet with vegetables",
 			"sub_heading": "OPEN ALL WEEK",
 			"heading": "Come hungry, leave happy",
-			"text": "Your new favourite spot in town.",
+			"text": "Your new favourite spot for fine dining.",
 			"btn_text": "Find us",
 			"btn_url": "#"
 		}
@@ -35,11 +38,11 @@
 		"preset": "hero",
 		"transition": "fade",
 		"autoplay": true,
-		"speed": 5000,
+		"speed": 5500,
 		"loop": true,
 		"arrows": true,
 		"dots": true,
-		"overlay": 35,
+		"overlay": 45,
 		"overlay_style": "gradient",
 		"height": 600,
 		"focus": "center",
@@ -51,5 +54,5 @@
 		"animate": true,
 		"thumbnails": false
 	},
-	"custom_css": ""
+	"custom_css": ".gs-slider .gs-slide__title,.gs-slider .gs-slide__sub,.gs-slider .gs-slide__text{text-shadow:0 2px 14px rgba(0,0,0,.55)}"
 }

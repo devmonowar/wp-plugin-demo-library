@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "saas",
+	"name": "SaaS",
+	"groups": [
+		{ "name": "Startups", "slug": "startups" },
+		{ "name": "Enterprise", "slug": "enterprise" }
+	],
+	"testimonials": [
+		{
+			"title": "Marcus Webb",
+			"content": "Deployment time dropped from hours to minutes. Onboarding our team took an afternoon, not a sprint.",
+			"meta": { "company": "CloudNine", "designation": "Engineering Lead", "location": "Berlin, Germany", "rating": "5", "verified": "1" },
+			"groups": [ "enterprise" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/marcus.png"
+		},
+		{
+			"title": "Priya Nair",
+			"content": "A clean, well-documented API made integration painless. A few advanced settings could be simpler, but support filled the gaps.",
+			"meta": { "company": "Stackly", "designation": "CTO", "location": "Bangalore, India", "rating": "4", "verified": "1" },
+			"groups": [ "enterprise" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/priya.png"
+		},
+		{
+			"title": "Lucas Moreau",
+			"content": "We went from a scrappy startup to thousands of users without changing tools. It simply scaled with us.",
+			"meta": { "company": "Flowbase", "designation": "Founder", "location": "Lyon, France", "rating": "5", "verified": "1" },
+			"groups": [ "startups" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/lucas.png"
+		},
+		{
+			"title": "Hannah Berg",
+			"content": "So intuitive that the whole team adopted it in a week. No long training, no friction.",
+			"meta": { "company": "Nimbus", "designation": "Product Manager", "location": "Oslo, Norway", "rating": "5" },
+			"groups": [ "startups" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/hannah.png"
+		},
+		{
+			"title": "Diego Ramos",
+			"content": "Rock-solid uptime and clear monitoring. I finally sleep through the night when I'm on call.",
+			"meta": { "company": "Hyperscale", "designation": "DevOps Engineer", "location": "Barcelona, Spain", "rating": "5", "verified": "1" },
+			"groups": [ "enterprise" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/diego.png"
+		},
+		{
+			"title": "Yuki Sato",
+			"content": "The best support experience we've had with any vendor — fast, knowledgeable and genuinely invested.",
+			"meta": { "company": "Brightloop", "designation": "Head of Engineering", "location": "Osaka, Japan", "rating": "5" },
+			"groups": [ "startups" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/yuki.png"
+		}
+	]
+}

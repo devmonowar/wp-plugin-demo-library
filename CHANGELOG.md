@@ -6,6 +6,7 @@ Demo library changes. Adding or updating a demo does **not** require a plugin re
 ### Advanced Testimonial
 - Added: **Agency** demo (v1.0) — six client testimonials with ratings, companies, locations and verified badges.
 - Added: **Business** demo (v1.0) — corporate client and partner testimonials for B2B and corporate sites.
+- Added: **SaaS** demo (v1.0) — software/product reviews from startup and enterprise teams.
 - Added: initial Advanced Testimonial demo library folder (manifest, demo, preview, avatar images).
 
 ## 2026-06-25
