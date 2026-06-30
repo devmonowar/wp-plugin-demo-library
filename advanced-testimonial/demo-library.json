@@ -18,6 +18,22 @@
 			"preview_width": 1200,
 			"preview_height": 675,
 			"file": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/demos/agency.json"
+		},
+		{
+			"id": "business",
+			"name": "Business",
+			"description": "Corporate client and partner testimonials with ratings, companies, locations and verified badges — for agencies, B2B and corporate sites.",
+			"version": "1.0",
+			"updated": "2026-06-27",
+			"requires": "2.0.2",
+			"category": "Business",
+			"tags": [ "business", "corporate", "b2b", "clients" ],
+			"featured": false,
+			"new": true,
+			"preview": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/previews/business.jpg",
+			"preview_width": 1200,
+			"preview_height": 675,
+			"file": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/demos/business.json"
 		}
 	]
 }

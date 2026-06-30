@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "business",
+	"name": "Business",
+	"groups": [
+		{ "name": "Clients", "slug": "clients" },
+		{ "name": "Partners", "slug": "partners" }
+	],
+	"testimonials": [
+		{
+			"title": "Daniel Foster",
+			"content": "A reliable partner from day one. The return on investment was clear within the first quarter, and their team never missed a deadline.",
+			"meta": { "company": "Vantage Group", "designation": "COO", "location": "Chicago, USA", "rating": "5", "verified": "1" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/daniel.png"
+		},
+		{
+			"title": "Aisha Rahman",
+			"content": "Rolling this out across our regional offices was seamless. Support has been responsive and genuinely helpful at every step.",
+			"meta": { "company": "Meridian Ltd", "designation": "Operations Director", "location": "Dubai, UAE", "rating": "5" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/aisha.png"
+		},
+		{
+			"title": "Henrik Johansson",
+			"content": "More than a vendor — a strategic partner. Their insight helped us scale confidently into new markets.",
+			"meta": { "company": "Nordic Solutions", "designation": "CEO", "location": "Stockholm, Sweden", "rating": "5", "verified": "1" },
+			"groups": [ "partners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/henrik.png"
+		},
+		{
+			"title": "Grace O'Brien",
+			"content": "Solid results and dependable reporting. A couple of features took time to learn, but the support team made it easy.",
+			"meta": { "company": "Lumora Corp", "designation": "Finance Manager", "location": "Dublin, Ireland", "rating": "4" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/grace.png"
+		},
+		{
+			"title": "Rajesh Menon",
+			"content": "We exceeded our annual targets ahead of schedule. The impact on our sales process has been measurable and lasting.",
+			"meta": { "company": "Apex Global", "designation": "VP Sales", "location": "Mumbai, India", "rating": "5", "verified": "1" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/rajesh.png"
+		},
+		{
+			"title": "Sophie Laurent",
+			"content": "Our brand trust grew noticeably after working with them. Professional, polished and a pleasure to collaborate with.",
+			"meta": { "company": "Belle Group", "designation": "Marketing Head", "location": "Paris, France", "rating": "5" },
+			"groups": [ "partners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/sophie.png"
+		}
+	]
+}
