@@ -7,35 +7,39 @@
 	"title": "Product Carousel",
 	"slides": [
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-1.jpg",
-			"sub_heading": "NEW",
-			"heading": "New arrivals",
-			"text": "Fresh picks, just in.",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/red-sneakers-fashion-footwear-product.jpg",
+			"alt": "Red and black high-top sneakers product photo",
+			"sub_heading": "NEW IN",
+			"heading": "Footwear",
+			"text": "",
 			"btn_text": "Shop now",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-2.jpg",
-			"sub_heading": "POPULAR",
-			"heading": "Best sellers",
-			"text": "Loved by our customers.",
-			"btn_text": "Browse",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/white-blouse-fashion-clothing-product.jpg",
+			"alt": "White blouse on a clothing rack in a fashion store",
+			"sub_heading": "TRENDING",
+			"heading": "Fashion",
+			"text": "",
+			"btn_text": "Shop now",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-3.jpg",
-			"sub_heading": "DEALS",
-			"heading": "On sale",
-			"text": "Limited-time offers.",
-			"btn_text": "Save now",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/handmade-ceramic-tableware-homeware.jpg",
+			"alt": "Handmade ceramic plate, mug and bowls homeware set",
+			"sub_heading": "BESTSELLER",
+			"heading": "Homeware",
+			"text": "",
+			"btn_text": "Shop now",
 			"btn_url": "#"
 		},
 		{
-			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-4.jpg",
-			"sub_heading": "EXPLORE",
-			"heading": "Collections",
-			"text": "Find your style.",
-			"btn_text": "View all",
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/skincare-serum-beauty-product.jpg",
+			"alt": "Hand holding a skincare serum bottle",
+			"sub_heading": "CLEAN BEAUTY",
+			"heading": "Skincare",
+			"text": "",
+			"btn_text": "Shop now",
 			"btn_url": "#"
 		}
 	],
@@ -47,17 +51,17 @@
 		"loop": true,
 		"arrows": true,
 		"dots": true,
-		"overlay": 35,
-		"overlay_style": "gradient",
-		"height": 420,
+		"overlay": 30,
+		"overlay_style": "solid",
+		"height": 460,
 		"focus": "center",
 		"fit": "cover",
 		"per_page": 3,
 		"gap": 24,
-		"accent": "#f59e0b",
+		"accent": "#e11d48",
 		"ken_burns": false,
 		"animate": true,
 		"thumbnails": false
 	},
-	"custom_css": ""
+	"custom_css": ".gs-slider .gs-slide__overlay{background:linear-gradient(to top,rgba(0,0,0,.62),rgba(0,0,0,0) 58%) !important}.gs-slider .gs-slide{justify-content:flex-end !important}.gs-slider .gs-slide__content{padding:0 16px 26px !important;text-align:center}.gs-slider .gs-slide__title{font-size:26px !important;margin-bottom:10px}"
 }

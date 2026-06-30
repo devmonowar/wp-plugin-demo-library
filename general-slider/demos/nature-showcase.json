@@ -8,6 +8,7 @@
 	"slides": [
 		{
 			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/nature-1.jpg",
+			"alt": "Snow-covered mountain peaks with a tent at a Himalayan base camp",
 			"sub_heading": "EXPLORE",
 			"heading": "Reach new heights",
 			"text": "Adventures that take your breath away.",
@@ -16,6 +17,7 @@
 		},
 		{
 			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/nature-2.jpg",
+			"alt": "Aerial view of a blue fjord between steep cliffs",
 			"sub_heading": "WANDER",
 			"heading": "Find your wild",
 			"text": "Where rivers carve their own path.",
@@ -24,6 +26,7 @@
 		},
 		{
 			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/nature-3.jpg",
+			"alt": "Winding road through lush green misty highland hills",
 			"sub_heading": "DREAM",
 			"heading": "Above the clouds",
 			"text": "Chase horizons that never end.",
@@ -32,6 +35,7 @@
 		},
 		{
 			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/nature-4.jpg",
+			"alt": "A waterfall cascading through a lush green forest",
 			"sub_heading": "DISCOVER",
 			"heading": "Into the wild",
 			"text": "The quiet, powerful beauty of nature.",
