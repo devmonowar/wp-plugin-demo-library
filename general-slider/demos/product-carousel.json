@@ -1,0 +1,63 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "product-carousel",
+	"name": "Product Carousel",
+	"version": "1.0",
+	"title": "Product Carousel",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-1.jpg",
+			"sub_heading": "NEW",
+			"heading": "New arrivals",
+			"text": "Fresh picks, just in.",
+			"btn_text": "Shop now",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-2.jpg",
+			"sub_heading": "POPULAR",
+			"heading": "Best sellers",
+			"text": "Loved by our customers.",
+			"btn_text": "Browse",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-3.jpg",
+			"sub_heading": "DEALS",
+			"heading": "On sale",
+			"text": "Limited-time offers.",
+			"btn_text": "Save now",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/product-carousel-4.jpg",
+			"sub_heading": "EXPLORE",
+			"heading": "Collections",
+			"text": "Find your style.",
+			"btn_text": "View all",
+			"btn_url": "#"
+		}
+	],
+	"settings": {
+		"preset": "hero",
+		"transition": "slide",
+		"autoplay": true,
+		"speed": 4000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 35,
+		"overlay_style": "gradient",
+		"height": 420,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 3,
+		"gap": 24,
+		"accent": "#f59e0b",
+		"ken_burns": false,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}
