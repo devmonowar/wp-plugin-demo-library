@@ -1,0 +1,55 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "minimal-clean",
+	"name": "Minimal Clean",
+	"version": "1.0",
+	"title": "Minimal Clean",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/minimal-clean-1.jpg",
+			"sub_heading": "WELCOME",
+			"heading": "Simple is powerful",
+			"text": "Clean design that gets out of the way.",
+			"btn_text": "Learn more",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/minimal-clean-2.jpg",
+			"sub_heading": "FOCUS",
+			"heading": "Just what you need",
+			"text": "No clutter, no distractions.",
+			"btn_text": "See how",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/minimal-clean-3.jpg",
+			"sub_heading": "START",
+			"heading": "Begin in minutes",
+			"text": "Set up your first slider with ease.",
+			"btn_text": "Get started",
+			"btn_url": "#"
+		}
+	],
+	"settings": {
+		"preset": "minimal",
+		"transition": "fade",
+		"autoplay": true,
+		"speed": 5000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 30,
+		"overlay_style": "solid",
+		"height": 560,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#f59e0b",
+		"ken_burns": false,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}

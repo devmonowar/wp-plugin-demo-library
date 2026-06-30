@@ -1,0 +1,55 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "testimonials",
+	"name": "Testimonials",
+	"version": "1.0",
+	"title": "Testimonials",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/testimonials-1.jpg",
+			"sub_heading": "SARAH M. — BLOGGER",
+			"heading": "\"Fast, clean, and so easy to use.\"",
+			"text": "Exactly what I needed, with zero bloat.",
+			"btn_text": "",
+			"btn_url": ""
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/testimonials-2.jpg",
+			"sub_heading": "DAVID R. — AGENCY",
+			"heading": "\"My go-to slider for client sites.\"",
+			"text": "Reliable, accessible, and looks great everywhere.",
+			"btn_text": "",
+			"btn_url": ""
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/testimonials-3.jpg",
+			"sub_heading": "PRIYA K. — SHOP OWNER",
+			"heading": "\"Beautiful sliders in no time.\"",
+			"text": "The demo library got me started instantly.",
+			"btn_text": "",
+			"btn_url": ""
+		}
+	],
+	"settings": {
+		"preset": "testimonial",
+		"transition": "fade",
+		"autoplay": true,
+		"speed": 5000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 25,
+		"overlay_style": "solid",
+		"height": 520,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#38bdf8",
+		"ken_burns": false,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}

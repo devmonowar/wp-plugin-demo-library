@@ -1,0 +1,55 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "creative-agency",
+	"name": "Creative Agency",
+	"version": "1.0",
+	"title": "Creative Agency",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/creative-agency-1.jpg",
+			"sub_heading": "CREATIVE STUDIO",
+			"heading": "Ideas that move people",
+			"text": "Branding, web, and everything in between.",
+			"btn_text": "See our work",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/creative-agency-2.jpg",
+			"sub_heading": "DESIGN + CODE",
+			"heading": "Crafted with intention",
+			"text": "Where strategy meets beautiful execution.",
+			"btn_text": "Our process",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/creative-agency-3.jpg",
+			"sub_heading": "START A PROJECT",
+			"heading": "Let's make something great",
+			"text": "Tell us your vision and we'll bring it to life.",
+			"btn_text": "Get a quote",
+			"btn_url": "#"
+		}
+	],
+	"settings": {
+		"preset": "split",
+		"transition": "slide",
+		"autoplay": true,
+		"speed": 5000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 35,
+		"overlay_style": "gradient",
+		"height": 600,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#fbbf24",
+		"ken_burns": true,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}
