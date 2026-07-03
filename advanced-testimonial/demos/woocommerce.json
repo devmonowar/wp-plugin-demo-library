@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "woocommerce",
+	"name": "WooCommerce",
+	"groups": [
+		{ "name": "Verified Buyers", "slug": "verified-buyers" },
+		{ "name": "Repeat Customers", "slug": "repeat-customers" }
+	],
+	"testimonials": [
+		{
+			"title": "Chloe Bennett",
+			"content": "Ordered on Monday, wearing them by Wednesday. The quality is even better in person — I'll definitely be back.",
+			"meta": { "company": "Aurora Sneakers", "designation": "Verified Buyer", "location": "Manchester, UK", "rating": "5", "verified": "1" },
+			"groups": [ "repeat-customers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/chloe.png"
+		},
+		{
+			"title": "Mateo Rossi",
+			"content": "Exactly as pictured and beautifully made. The packaging was lovely and delivery was quick.",
+			"meta": { "company": "Leather Weekender", "designation": "Verified Buyer", "location": "Rome, Italy", "rating": "5", "verified": "1" },
+			"groups": [ "verified-buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/mateo.png"
+		},
+		{
+			"title": "Amara Okafor",
+			"content": "Gorgeous product and true to the photos. Delivery took a little longer than expected, but it was worth the wait.",
+			"meta": { "company": "Silk Scarf", "designation": "Verified Buyer", "location": "Lagos, Nigeria", "rating": "4", "verified": "1" },
+			"groups": [ "verified-buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/amara.png"
+		},
+		{
+			"title": "Ethan Clarke",
+			"content": "My third order from this shop and it never disappoints. Checkout was smooth and shipping was fast.",
+			"meta": { "company": "Ceramic Mug Set", "designation": "Verified Buyer", "location": "Sydney, Australia", "rating": "5", "verified": "1" },
+			"groups": [ "repeat-customers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/ethan.png"
+		},
+		{
+			"title": "Ingrid Larsen",
+			"content": "Excellent quality for the price. Soft, well-finished and exactly what I hoped for.",
+			"meta": { "company": "Linen Bedding", "designation": "Verified Buyer", "location": "Copenhagen, Denmark", "rating": "5", "verified": "1" },
+			"groups": [ "verified-buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/ingrid.png"
+		},
+		{
+			"title": "Ravi Sharma",
+			"content": "Great value and a seamless checkout. Tracking kept me updated the whole way — highly recommend.",
+			"meta": { "company": "Wireless Earbuds", "designation": "Verified Buyer", "location": "Delhi, India", "rating": "5", "verified": "1" },
+			"groups": [ "repeat-customers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/ravi.png"
+		}
+	]
+}
