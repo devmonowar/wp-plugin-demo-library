@@ -50,6 +50,22 @@
 			"preview_width": 1200,
 			"preview_height": 675,
 			"file": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/demos/saas.json"
+		},
+		{
+			"id": "woocommerce",
+			"name": "WooCommerce",
+			"description": "Verified product reviews from happy shoppers — ideal for WooCommerce shops and eCommerce stores.",
+			"version": "1.0",
+			"updated": "2026-07-01",
+			"requires": "2.0.2",
+			"category": "eCommerce",
+			"tags": [ "woocommerce", "ecommerce", "shop", "reviews" ],
+			"featured": false,
+			"new": true,
+			"preview": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/previews/woocommerce.jpg",
+			"preview_width": 1200,
+			"preview_height": 675,
+			"file": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/demos/woocommerce.json"
 		}
 	]
 }
