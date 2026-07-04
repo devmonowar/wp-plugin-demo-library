@@ -21,6 +21,7 @@ const ROOT = path.join(__dirname, 'advanced-testimonial');
 const BASE = 'https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/';
 const PLUGIN_WPORG = 'https://wordpress.org/plugins/advanced-testimonial/';
 const GITHUB = 'https://github.com/devmonowar/advanced-testimonial';
+const ROOT_URL = 'https://devmonowar.github.io/wp-plugin-demo-library/';
 
 const esc = (s) =>
 	String(s == null ? '' : s)
@@ -42,6 +43,28 @@ function stars(r) {
 	const full = Math.floor(val);
 	const half = val - full >= 0.5;
 	return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(Math.max(0, 5 - full - (half ? 1 : 0)));
+}
+
+// "2026-06-27" -> "Jun 2026".
+function monthYear(s) {
+	const m = String(s || '').match(/^(\d{4})-(\d{2})/);
+	if (!m) {
+		return '';
+	}
+	const names = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+	return names[parseInt(m[2], 10) - 1] + ' ' + m[1];
+}
+
+// BreadcrumbList JSON-LD for richer search results.
+function breadcrumbLd(items) {
+	const list = items.map((it, i) => {
+		const node = { '@type': 'ListItem', position: i + 1, name: it.name };
+		if (it.url) {
+			node.item = it.url;
+		}
+		return node;
+	});
+	return '<script type="application/ld+json">' + JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: list }) + '</script>';
 }
 
 const manifest = readJSON(path.join(ROOT, 'demo-library.json'));
@@ -107,6 +130,8 @@ function buildIndex() {
 	)}
 <header class="site-header">
 	<div class="wrap">
+		<nav class="crumbs" aria-label="Breadcrumb"><a href="../">All Plugins</a> › <span>Advanced Testimonial</span></nav>
+		${breadcrumbLd([{ name: 'All Plugins', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }])}
 		<p class="eyebrow">WordPress plugin</p>
 		<h1>Advanced Testimonial — Demo Library</h1>
 		<p class="lead">${esc(full.length)} ready-made testimonial sets you can import in one click from your WordPress dashboard — each built with the free <a href="${PLUGIN_WPORG}">Advanced Testimonial</a> plugin.</p>
@@ -171,10 +196,17 @@ function buildDemo(d) {
 	const html = `${head(`${d.name} — Advanced Testimonial demo`, d.description, '../site.css', `${BASE}${d.id}/`)}
 <header class="site-header site-header--sub">
 	<div class="wrap">
-		<p class="crumb"><a href="../">← All demos</a></p>
+		<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">All Plugins</a> › <a href="../">Advanced Testimonial</a> › <span>${esc(d.name)}</span></nav>
+		${breadcrumbLd([{ name: 'All Plugins', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }, { name: d.name, url: `${BASE}${d.id}/` }])}
 		<div class="card__badges">${badges(d)}${d.category ? `<span class="chip">${esc(d.category)}</span>` : ''}</div>
 		<h1>${esc(d.name)}</h1>
 		<p class="lead">${esc(d.description)}</p>
+		<div class="compat">
+			${d.requires ? `<span class="compat__item compat__item--ok">✓ Advanced Testimonial ${esc(d.requires)}+</span>` : ''}
+			<span class="compat__item">Stable demo</span>
+			${monthYear(d.updated) ? `<span class="compat__item">Updated ${esc(monthYear(d.updated))}</span>` : ''}
+		</div>
+		<p class="links"><a class="btn" href="${PLUGIN_WPORG}">Get the plugin &amp; import this demo →</a> <a class="btn btn--ghost" href="../">All demos</a></p>
 	</div>
 </header>
 <main class="wrap demo">
@@ -222,6 +254,11 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .site-header h1{margin:0 0 10px;font-size:34px;line-height:1.15}
 .lead{margin:0;color:var(--muted);max-width:640px;font-size:18px}
 .crumb{margin:0 0 14px;font-size:14px}
+.crumbs{margin:0 0 14px;font-size:13px;color:var(--muted)}
+.crumbs a{color:var(--muted)}.crumbs a:hover{color:var(--accent)}
+.compat{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
+.compat__item{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 14px}
+.compat__item--ok{color:#0f766e;background:#f0fdfa;border-color:#99f6e4}
 .links{margin:22px 0 0}
 .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 20px;border-radius:8px;font-weight:600}
 .btn:hover{opacity:.9;text-decoration:none}

@@ -9,6 +9,11 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .site-header h1{margin:0 0 10px;font-size:34px;line-height:1.15}
 .lead{margin:0;color:var(--muted);max-width:640px;font-size:18px}
 .crumb{margin:0 0 14px;font-size:14px}
+.crumbs{margin:0 0 14px;font-size:13px;color:var(--muted)}
+.crumbs a{color:var(--muted)}.crumbs a:hover{color:var(--accent)}
+.compat{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
+.compat__item{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 14px}
+.compat__item--ok{color:#0f766e;background:#f0fdfa;border-color:#99f6e4}
 .links{margin:22px 0 0}
 .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 20px;border-radius:8px;font-weight:600}
 .btn:hover{opacity:.9;text-decoration:none}
