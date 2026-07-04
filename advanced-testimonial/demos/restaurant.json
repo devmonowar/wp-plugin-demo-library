@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "restaurant",
+	"name": "Restaurant",
+	"groups": [
+		{ "name": "Diners", "slug": "diners" },
+		{ "name": "Private Events", "slug": "private-events" }
+	],
+	"testimonials": [
+		{
+			"title": "Sophia Reyes",
+			"content": "From the moment we walked in, the atmosphere was warm and inviting. The pasta was cooked to perfection — the kind of dish you think about long after the meal is over.",
+			"meta": { "headline": "The best pasta outside Italy", "rating": "5", "location": "Miami, FL", "verified": "1" },
+			"groups": [ "diners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/sophia.png"
+		},
+		{
+			"title": "Kwame Asante",
+			"content": "Every course arrived beautifully presented and packed with flavour. The staff remembered our anniversary and brought a complimentary dessert — a lovely, thoughtful touch.",
+			"meta": { "headline": "An evening worth every penny", "rating": "5", "location": "Chicago, IL", "verified": "1" },
+			"groups": [ "diners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/kwame.png"
+		},
+		{
+			"title": "Mei Lin",
+			"content": "The menu changes with the season and it shows — ingredients are incredibly fresh and the flavour combinations are inspired. We have already booked our next visit.",
+			"meta": { "headline": "Every dish a work of art", "rating": "5", "location": "Seattle, WA" },
+			"groups": [ "diners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/mei.png"
+		},
+		{
+			"title": "Carlos Vega",
+			"content": "We booked the private dining room for our anniversary and everything exceeded expectations — the personalised menu, the attentive service and the perfect wine pairing. Truly unforgettable.",
+			"meta": { "headline": "Our anniversary dinner was flawless", "rating": "5", "location": "Austin, TX", "verified": "1" },
+			"groups": [ "private-events" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/carlos.png"
+		},
+		{
+			"title": "Astrid Paulsen",
+			"content": "A neighbourhood gem that never disappoints. The portions are generous, the menu always has something new to try, and the team makes every visit feel special.",
+			"meta": { "headline": "Warm service, wonderful food", "rating": "4.5", "location": "Portland, OR" },
+			"groups": [ "diners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/astrid.png"
+		},
+		{
+			"title": "Darius Osei",
+			"content": "Our team dinner went without a hitch — pre-set menu, dietary requirements handled without fuss, and service that was attentive without being intrusive. Highly recommend for corporate events.",
+			"meta": { "headline": "Seamless corporate dinner for twelve", "rating": "5", "location": "New York, NY", "verified": "1" },
+			"groups": [ "private-events" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/darius.png"
+		}
+	]
+}

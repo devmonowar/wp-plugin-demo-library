@@ -122,9 +122,17 @@ function buildIndex() {
 		})
 		.join('\n');
 
+	const nameList = full.map((d) => d.name);
+	const galleryDesc =
+		'Browse ready-made Advanced Testimonial demos for WordPress: ' +
+		(nameList.length > 1
+			? nameList.slice(0, -1).join(', ') + ' and ' + nameList[nameList.length - 1]
+			: nameList[0] || '') +
+		' review sets. Import any demo in one click.';
+
 	const html = `${head(
 		'Advanced Testimonial — Demo Library',
-		'Browse ready-made Advanced Testimonial demos for WordPress: agency, business, SaaS and WooCommerce review sets. Import any demo in one click.',
+		galleryDesc,
 		'site.css',
 		BASE
 	)}

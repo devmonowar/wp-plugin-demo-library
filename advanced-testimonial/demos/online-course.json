@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "online-course",
+	"name": "Online Course",
+	"groups": [
+		{ "name": "Students", "slug": "students" },
+		{ "name": "Corporate Learners", "slug": "corporate-learners" }
+	],
+	"testimonials": [
+		{
+			"title": "Zara Ahmed",
+			"content": "I had no coding background at all. Six months after finishing the course I landed my first developer role. The curriculum is practical, the projects are real, and the support is outstanding.",
+			"meta": { "headline": "Went from zero to job-ready", "rating": "5", "location": "Toronto, Canada", "verified": "1" },
+			"groups": [ "students" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/zara.png"
+		},
+		{
+			"title": "Finn Larsen",
+			"content": "Every lesson builds logically on the last. The instructor explains concepts clearly, answers questions quickly and the community keeps you accountable. Worth every penny.",
+			"meta": { "headline": "Best investment I've made in my career", "rating": "5", "location": "Copenhagen, Denmark", "verified": "1" },
+			"groups": [ "students" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/finn.png"
+		},
+		{
+			"title": "Leila Nazari",
+			"content": "I had tried other platforms but always dropped off. Here the pacing is perfect, the projects are relevant to the industry, and I actually finished. I have already recommended it to three colleagues.",
+			"meta": { "headline": "Finally a course I actually finished", "rating": "5", "location": "London, UK" },
+			"groups": [ "students" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/leila.png"
+		},
+		{
+			"title": "Omar Hassan",
+			"content": "We enrolled twelve members of our marketing team and saw measurable results within the first month. The business track is exactly what corporate learners need — no filler, all substance.",
+			"meta": { "headline": "Upskilled our entire team in weeks", "rating": "5", "location": "Dubai, UAE", "verified": "1" },
+			"groups": [ "corporate-learners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/omar.png"
+		},
+		{
+			"title": "Nina Kowalski",
+			"content": "I landed my first freelance client halfway through the course. The portfolio projects gave me real work to show, and the freelancing module helped me price and pitch with confidence.",
+			"meta": { "headline": "Got my first client before I even finished", "rating": "5", "location": "Warsaw, Poland" },
+			"groups": [ "students" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/nina.png"
+		},
+		{
+			"title": "Victor Santos",
+			"content": "We used this as part of our new-hire onboarding and it has saved us weeks of internal training time. The content is up to date, well structured and our team genuinely enjoys it.",
+			"meta": { "headline": "Transformed the way we onboard talent", "rating": "4.5", "location": "São Paulo, Brazil", "verified": "1" },
+			"groups": [ "corporate-learners" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/victor.png"
+		}
+	]
+}
