@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "healthcare",
+	"name": "Healthcare",
+	"groups": [
+		{ "name": "Patients", "slug": "patients" },
+		{ "name": "Families", "slug": "families" }
+	],
+	"testimonials": [
+		{
+			"title": "Rebecca Lawson",
+			"content": "I used to dread the dentist, but the whole team put me at ease the moment I walked in. My treatment was thorough and genuinely painless — I finally look forward to my check-ups.",
+			"meta": { "headline": "Gentle, caring and painless", "rating": "5", "location": "Portland, OR", "verified": "1" },
+			"groups": [ "patients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/rebecca.png"
+		},
+		{
+			"title": "Nathan Brooks",
+			"content": "Clear explanations, no pressure, and a treatment plan that actually fit my budget. My smile has never looked better and I could not be happier with the care I received.",
+			"meta": { "headline": "Best dental experience I've had", "rating": "5", "location": "Austin, TX", "verified": "1" },
+			"groups": [ "patients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/nathan.png"
+		},
+		{
+			"title": "Farah Haddad",
+			"content": "Every question I had was answered with patience and genuine care. I felt heard at every step and completely confident in my treatment. I could not recommend them more.",
+			"meta": { "headline": "They truly listen to you", "rating": "5", "location": "Seattle, WA" },
+			"groups": [ "patients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/farah.png"
+		},
+		{
+			"title": "Aaron Whitfield",
+			"content": "The team is wonderful with children — friendly, gentle and reassuring. My two kids leave smiling after every visit. As a parent, knowing they feel safe here means everything.",
+			"meta": { "headline": "My kids actually enjoy going", "rating": "4.5", "location": "Denver, CO", "verified": "1" },
+			"groups": [ "families" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/aaron.png"
+		},
+		{
+			"title": "Elena Alvarez",
+			"content": "From the easy online booking to the calm, spotless waiting room, everything felt modern and thoughtful. The staff made a very nervous patient feel completely relaxed.",
+			"meta": { "headline": "Modern, spotless and welcoming", "rating": "5", "location": "Miami, FL" },
+			"groups": [ "patients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/elena.png"
+		},
+		{
+			"title": "Trevor Ellis",
+			"content": "After years of hiding my smile, the treatment here gave me back my confidence. Professional, honest and worth every penny — thank you to the entire team for changing my life.",
+			"meta": { "headline": "Life-changing results", "rating": "5", "location": "Chicago, IL", "verified": "1" },
+			"groups": [ "families" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/trevor.png"
+		}
+	]
+}

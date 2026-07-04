@@ -4,6 +4,22 @@
 	"minimum_plugin_version": "2.0.2",
 	"demos": [
 		{
+			"id": "healthcare",
+			"name": "Healthcare",
+			"description": "Patient reviews with bold headlines, star ratings, locations and verified badges — perfect for dentists, clinics and medical practices.",
+			"version": "1.0",
+			"updated": "2026-07-04",
+			"requires": "2.0.4",
+			"category": "Healthcare",
+			"tags": [ "healthcare", "dentist", "clinic", "medical", "patients" ],
+			"featured": true,
+			"new": true,
+			"preview": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/previews/healthcare.jpg",
+			"preview_width": 1200,
+			"preview_height": 675,
+			"file": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/demos/healthcare.json"
+		},
+		{
 			"id": "agency",
 			"name": "Agency",
 			"description": "Six client testimonials with ratings, companies, locations and verified badges — ideal for agencies and studios.",
