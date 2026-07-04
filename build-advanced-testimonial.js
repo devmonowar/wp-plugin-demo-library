@@ -188,6 +188,7 @@ function buildDemo(d) {
 		</div>
 		<span class="tstml__stars" aria-label="Rated ${esc(m.rating || '0')} out of 5">${stars(m.rating)}</span>
 	</div>
+	${m.headline ? `<p class="tstml__headline">${esc(m.headline)}</p>` : ''}
 	<p class="tstml__quote">${esc(t.content)}</p>
 </li>`;
 		})
@@ -294,6 +295,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .tstml__role{margin:0;font-size:13px;color:var(--muted)}
 .tstml__verified{margin-left:6px;font-size:11px;color:#16a34a;font-weight:700}
 .tstml__stars{margin-left:auto;flex:0 0 auto;color:var(--star);font-size:15px;letter-spacing:1px;white-space:nowrap}
+.tstml__headline{margin:0 0 4px;font-size:15px;font-weight:700;color:var(--ink)}
 .tstml__quote{margin:0;color:var(--ink);font-size:14px;line-height:1.6}
 .site-footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:14px}
 .site-footer a{color:var(--muted)}
