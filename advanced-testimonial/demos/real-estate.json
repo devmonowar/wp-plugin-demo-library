@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "real-estate",
+	"name": "Real Estate",
+	"groups": [
+		{ "name": "Buyers", "slug": "buyers" },
+		{ "name": "Sellers", "slug": "sellers" }
+	],
+	"testimonials": [
+		{
+			"title": "Claire Hoffman",
+			"content": "After months of searching on our own, we reached out and found our dream home in under three weeks. Patient, knowledgeable and never pushy — exactly what a first-time buyer needs.",
+			"meta": { "headline": "Found our dream home in three weeks", "rating": "5", "location": "Austin, TX", "verified": "1" },
+			"groups": [ "buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/claire.png"
+		},
+		{
+			"title": "Ben Okafor",
+			"content": "Our home sold above the asking price in four days. The pricing strategy was spot on, the photography was stunning, and we had multiple offers before the weekend.",
+			"meta": { "headline": "Sold above asking price in four days", "rating": "5", "location": "Atlanta, GA", "verified": "1" },
+			"groups": [ "sellers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/ben.png"
+		},
+		{
+			"title": "Fatima Al-Rashid",
+			"content": "Moving to a new city is stressful enough without a complicated home search. Every question was answered promptly and the whole process felt smooth and well-managed from start to finish.",
+			"meta": { "headline": "Made relocating feel completely stress-free", "rating": "5", "location": "Houston, TX" },
+			"groups": [ "buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/fatima.png"
+		},
+		{
+			"title": "Jerome Petit",
+			"content": "We had a tight budget and a long list of requirements. Instead of showing us properties outside our range, we got honest advice and found a home that ticked every box.",
+			"meta": { "headline": "Honest advice, perfect result", "rating": "5", "location": "Chicago, IL", "verified": "1" },
+			"groups": [ "buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/jerome.png"
+		},
+		{
+			"title": "Alice Yamamoto",
+			"content": "The listing was live within a week, beautifully presented and marketed across every channel. Viewings were managed professionally and we accepted an offer well above what we expected.",
+			"meta": { "headline": "Professional from listing to closing", "rating": "4.5", "location": "Seattle, WA" },
+			"groups": [ "sellers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/alice.png"
+		},
+		{
+			"title": "Rafael Moreno",
+			"content": "This was our third home purchase and by far the smoothest experience. Responsive, thorough and always working in our interest — we would not use anyone else for our next move.",
+			"meta": { "headline": "The best agent we've ever worked with", "rating": "5", "location": "Miami, FL", "verified": "1" },
+			"groups": [ "buyers" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/rafael.png"
+		}
+	]
+}
