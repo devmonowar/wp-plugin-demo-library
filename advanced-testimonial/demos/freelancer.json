@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "freelancer",
+	"name": "Freelancer",
+	"groups": [
+		{ "name": "Clients", "slug": "clients" },
+		{ "name": "Collaborators", "slug": "collaborators" }
+	],
+	"testimonials": [
+		{
+			"title": "Maya Chen",
+			"content": "Incredible attention to detail and a real understanding of our vision. The rebrand exceeded every expectation and the entire process was smooth and genuinely collaborative.",
+			"meta": { "headline": "Redesigned our brand from the ground up", "rating": "5", "location": "Singapore", "verified": "1" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/maya.png"
+		},
+		{
+			"title": "Tom Harrington",
+			"content": "Clear communication from brief to launch, creative solutions under pressure and zero hand-holding required. Exactly what a growing startup needs in a freelance partner.",
+			"meta": { "headline": "Delivered a complex site on a tight deadline", "rating": "5", "location": "London, UK", "verified": "1" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/tom.png"
+		},
+		{
+			"title": "Sara Lindqvist",
+			"content": "Our conversion rate climbed 30 % in the first month after the landing page went live. Data-driven thinking paired with a beautiful aesthetic — a rare combination.",
+			"meta": { "headline": "Clean design that converted visitors into buyers", "rating": "5", "location": "Stockholm, Sweden" },
+			"groups": [ "clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/sara.png"
+		},
+		{
+			"title": "Priyanka Sharma",
+			"content": "We brought them in as a design consultant and the impact was immediate. Thoughtful feedback, strong visual instincts and always generous with knowledge.",
+			"meta": { "headline": "A collaborator who raises the whole team", "rating": "5", "location": "Mumbai, India", "verified": "1" },
+			"groups": [ "collaborators" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/priyanka.png"
+		},
+		{
+			"title": "Kofi Mensah",
+			"content": "Across three joint projects I have never missed a deadline and the output has always been polished. An ideal partner for any client-facing creative work.",
+			"meta": { "headline": "Easy to work with and consistently creative", "rating": "5", "location": "Accra, Ghana" },
+			"groups": [ "collaborators" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/kofi.png"
+		},
+		{
+			"title": "Luis Ortega",
+			"content": "I have recommended their work to four colleagues. The quality is consistent, the process is frictionless and the results speak for themselves — could not ask for more.",
+			"meta": { "headline": "Professional, fast and genuinely talented", "rating": "4.5", "location": "Madrid, Spain", "verified": "1" },
+			"groups": [ "collaborators" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/luis.png"
+		}
+	]
+}

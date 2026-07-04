@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "fitness",
+	"name": "Fitness",
+	"groups": [
+		{ "name": "Members", "slug": "members" },
+		{ "name": "Online Clients", "slug": "online-clients" }
+	],
+	"testimonials": [
+		{
+			"title": "Jake Morrison",
+			"content": "The coaches hold you accountable without making you feel guilty. The programme adapts as you progress and the results I have seen would not have been possible at any other gym.",
+			"meta": { "headline": "Lost 18 kg and kept it off for a year", "rating": "5", "location": "New York, USA", "verified": "1" },
+			"groups": [ "members" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/jake.png"
+		},
+		{
+			"title": "Amelia Rhodes",
+			"content": "I tried several gyms before this one. The difference is the community — everyone encourages each other and the coaches genuinely remember your goals week to week.",
+			"meta": { "headline": "Stronger than I have ever been at 42", "rating": "5", "location": "Sydney, Australia", "verified": "1" },
+			"groups": [ "members" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/amelia.png"
+		},
+		{
+			"title": "Lisa Park",
+			"content": "The induction was thorough, the classes are well-paced and the facility is spotless. Six weeks in and I already feel like a completely different person — I have recommended it to three friends.",
+			"meta": { "headline": "Six weeks in and I feel like a different person", "rating": "5", "location": "Seoul, South Korea" },
+			"groups": [ "members" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/lisa.png"
+		},
+		{
+			"title": "Kai Nakamura",
+			"content": "Training around a busy schedule used to feel impossible. The app keeps everything organised, check-ins are timely and the plan actually adapts when life gets in the way.",
+			"meta": { "headline": "Best online coaching I have tried", "rating": "5", "location": "Tokyo, Japan", "verified": "1" },
+			"groups": [ "online-clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/kai.png"
+		},
+		{
+			"title": "Chioma Obi",
+			"content": "I had tried three online programmes before this one. The difference is that the coach genuinely reviews your progress and adjusts the plan. Not a generic PDF — proper coaching.",
+			"meta": { "headline": "Real results from a real programme", "rating": "5", "location": "Lagos, Nigeria", "verified": "1" },
+			"groups": [ "online-clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/chioma.png"
+		},
+		{
+			"title": "Andrei Popescu",
+			"content": "The nutrition guidance is practical and the workouts can be done anywhere. I travelled for four of the eight weeks and still hit my goal. Highly professional service.",
+			"meta": { "headline": "Hit my target weight in eight weeks", "rating": "4.5", "location": "Bucharest, Romania" },
+			"groups": [ "online-clients" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/andrei.png"
+		}
+	]
+}
