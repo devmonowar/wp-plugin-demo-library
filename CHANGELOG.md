@@ -2,6 +2,21 @@
 
 Demo library changes. Adding or updating a demo does **not** require a plugin release.
 
+## 2026-07-08
+### Advanced Testimonial
+- Added: **Video Reviews** demo — testimonials with self-hosted cartoon video clips (`videos/*.mp4`) that open in a lightbox, mixed with written reviews. Requires plugin 2.0.6+.
+- Root index: demo counts replaced with count-free wording (counts go stale).
+
+## 2026-07-07
+### Advanced Testimonial
+- Added: a live **"Card styles" showcase** section on the gallery page (all skins in real CSS).
+- Changed: **Fitness, Freelancer, Restaurant and SaaS previews** now render in different card styles (bold / minimal / bubble / gradient); each demo page notes the style used (`preview_style` manifest field).
+- Changed: gallery header wording is count-free.
+
+## 2026-07-05
+### Advanced Testimonial
+- Added: **Restaurant, Online Course, Real Estate, Freelancer and Fitness** demos — completing the demo set alongside Agency, Business, SaaS, WooCommerce and Healthcare.
+
 ## 2026-07-04
 ### Advanced Testimonial
 - Added: **Healthcare** demo (v1.0) — patient reviews with bold headlines, star ratings, locations and verified badges, for dentists, clinics and medical practices. Requires plugin 2.0.4+.
