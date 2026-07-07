@@ -22,6 +22,7 @@
 		{
 			"id": "restaurant",
 			"name": "Restaurant",
+			"preview_style": "bubble",
 			"description": "Diner and private-event reviews with bold headlines, star ratings and verified badges — perfect for restaurants, cafés and hospitality businesses.",
 			"version": "1.0",
 			"updated": "2026-07-04",
@@ -70,6 +71,7 @@
 		{
 			"id": "freelancer",
 			"name": "Freelancer",
+			"preview_style": "minimal",
 			"description": "Client and collaborator reviews with bold headlines, star ratings and verified badges — perfect for freelancers, designers and portfolio sites.",
 			"version": "1.0",
 			"updated": "2026-07-04",
@@ -86,6 +88,7 @@
 		{
 			"id": "fitness",
 			"name": "Fitness",
+			"preview_style": "bold",
 			"description": "Member and online-client reviews with bold headlines, star ratings and verified badges — perfect for gyms, personal trainers and fitness studios.",
 			"version": "1.0",
 			"updated": "2026-07-04",
@@ -134,6 +137,7 @@
 		{
 			"id": "saas",
 			"name": "SaaS",
+			"preview_style": "gradient",
 			"description": "Software and product reviews from startup and enterprise teams — perfect for SaaS, apps and tech products.",
 			"version": "1.0",
 			"updated": "2026-06-27",
