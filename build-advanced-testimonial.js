@@ -105,6 +105,22 @@ function badges(d) {
 	return out;
 }
 
+/* ---------- Card styles showcase (live CSS, not screenshots) ---------- */
+const STYLE_NAMES = ['classic', 'modern', 'minimal', 'bubble', 'bold', 'glass', 'gradient', 'outline', 'retro'];
+
+function styleCards() {
+	return STYLE_NAMES.map(
+		(s) => `<div class="stylecard stylecard--${s}">
+	<p class="stylecard__label">style="${s}"</p>
+	<div class="sc">
+		<div class="sc__stars">★★★★★</div>
+		<p class="sc__quote">Onboarding was effortless and results showed within a month.</p>
+		<div class="sc__who"><span class="sc__avatar">E</span><span class="sc__meta"><span class="sc__name">Emma Thompson</span><span class="sc__role">CEO · Brightwave</span></span></div>
+	</div>
+</div>`
+	).join('\n');
+}
+
 /* ---------- Gallery index ---------- */
 function buildIndex() {
 	const cards = full
@@ -142,7 +158,7 @@ function buildIndex() {
 		${breadcrumbLd([{ name: 'All Plugins', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }])}
 		<p class="eyebrow">WordPress plugin</p>
 		<h1>Advanced Testimonial — Demo Library</h1>
-		<p class="lead">${esc(full.length)} ready-made testimonial sets you can import in one click from your WordPress dashboard — each built with the free <a href="${PLUGIN_WPORG}">Advanced Testimonial</a> plugin.</p>
+		<p class="lead">Ready-made testimonial sets you can import in one click from your WordPress dashboard — each built with the free <a href="${PLUGIN_WPORG}">Advanced Testimonial</a> plugin.</p>
 		<p class="links"><a class="btn" href="${PLUGIN_WPORG}">Get the plugin</a> <a class="btn btn--ghost" href="${GITHUB}">GitHub</a></p>
 	</div>
 </header>
@@ -150,6 +166,13 @@ function buildIndex() {
 	<div class="grid">
 ${cards}
 	</div>
+	<section class="styles">
+		<h2>Card styles</h2>
+		<p class="styles__lead">Every demo can wear any of these looks — pick one per block or shortcode with the <code>style</code> attribute, or set a site-wide default under <strong>Settings → Styles</strong>.</p>
+		<div class="styles__grid">
+${styleCards()}
+		</div>
+	</section>
 </main>
 <footer class="site-footer"><div class="wrap"><p>Advanced Testimonial demo library · <a href="${PLUGIN_WPORG}">WordPress.org</a> · <a href="${GITHUB}">GitHub</a></p></div></footer>
 </body></html>`;
@@ -220,6 +243,7 @@ function buildDemo(d) {
 </header>
 <main class="wrap demo">
 	<div class="demo__preview"><img src="${esc(preview)}" alt="${esc(d.name)} preview" width="1200" height="675"></div>
+	${d.preview_style ? `<p class="stylenote">Preview shown with the <code>style="${esc(d.preview_style)}"</code> card style — add it to your shortcode or block to match. The import gives you the content; the look is yours to pick.</p>` : ''}
 
 	<section class="panel">
 		<h2>How to import</h2>
@@ -285,7 +309,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .badge--new{background:#16a34a}.badge--featured{background:#f59e0b}
 .chip{display:inline-block;font-size:12px;padding:3px 10px;border-radius:999px;background:var(--soft);border:1px solid var(--line);color:var(--muted)}
 .demo{padding-bottom:60px}
-.demo__preview{border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:28px 0}
+.demo__preview{border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:28px 0 10px}
+.stylenote{margin:0 0 26px;font-size:14px;color:var(--muted)}
+.stylenote code{background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-size:13px}
 .demo__preview img{width:100%;height:auto;display:block}
 .panel{border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:0 0 22px;background:#fff}
 .panel h2{margin:0 0 14px;font-size:20px}
@@ -307,6 +333,43 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .tstml__quote{margin:0;color:var(--ink);font-size:14px;line-height:1.6}
 .site-footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:14px}
 .site-footer a{color:var(--muted)}
+/* ---- Card styles showcase ---- */
+.styles{margin:14px 0 64px}
+.styles h2{margin:0 0 8px;font-size:26px}
+.styles__lead{margin:0 0 26px;color:var(--muted);max-width:640px}
+.styles__lead code{background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-size:14px}
+.styles__grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:26px}
+.stylecard__label{margin:0 0 8px;font-size:13px;font-weight:600;color:var(--muted);font-family:ui-monospace,Consolas,monospace}
+.sc{border-radius:14px;padding:20px;background:#fff;border:1px solid var(--line);box-shadow:0 2px 10px rgba(0,0,0,.05);height:calc(100% - 30px)}
+.sc__stars{color:var(--star);letter-spacing:2px;font-size:15px}
+.sc__quote{margin:10px 0 16px;font-size:14.5px;line-height:1.6;color:var(--ink)}
+.sc__who{display:flex;align-items:center;gap:10px}
+.sc__avatar{width:38px;height:38px;border-radius:50%;background:var(--accent);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;flex:0 0 38px}
+.sc__meta{display:flex;flex-direction:column;line-height:1.35}
+.sc__name{font-weight:700;font-size:14px}
+.sc__role{font-size:12.5px;color:var(--muted)}
+.stylecard--modern .sc{background:#e7eefc;border:none;position:relative}
+.stylecard--modern .sc__quote{position:relative;padding-top:26px;color:#1e3a8a}
+.stylecard--modern .sc__quote::before{content:'\\201C';position:absolute;top:-14px;left:0;font-family:Georgia,serif;font-size:52px;line-height:1;color:var(--accent)}
+.stylecard--modern .sc__name{color:#1e3a8a}
+.stylecard--minimal .sc{background:transparent;border:none;box-shadow:none;border-left:3px solid var(--accent);border-radius:0;padding:8px 8px 8px 18px}
+.stylecard--minimal .sc__quote{font-family:Georgia,serif;font-style:italic;font-size:15.5px}
+.stylecard--bubble .sc{background:transparent;border:none;box-shadow:none;padding:0}
+.stylecard--bubble .sc__stars{padding:14px 16px 0;background:#eef0f4;border-radius:16px 16px 0 0;display:block}
+.stylecard--bubble .sc__quote{position:relative;background:#eef0f4;border-radius:0 0 16px 16px;border-bottom-left-radius:4px;padding:8px 16px 14px;margin:0 0 18px}
+.stylecard--bubble .sc__quote::after{content:'';position:absolute;left:14px;bottom:-9px;border-style:solid;border-width:10px 12px 0 0;border-color:#eef0f4 transparent transparent}
+.stylecard--bold .sc{background:#111827;border:none}
+.stylecard--bold .sc__quote{color:#e5e7eb;font-weight:500;font-size:15px}
+.stylecard--bold .sc__name{color:#fff}
+.stylecard--bold .sc__role{color:#9ca3af}
+.stylecard--glass{background:linear-gradient(135deg,#3b82f6,#7c3aed);border-radius:16px;padding:14px}
+.stylecard--glass .stylecard__label{color:rgba(255,255,255,.85)}
+.stylecard--glass .sc{background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.65);height:auto}
+.stylecard--gradient .sc{border:2px solid transparent;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(135deg,var(--accent),var(--star)) border-box}
+.stylecard--outline .sc{background:transparent;border:2px solid var(--accent);box-shadow:none}
+.stylecard--retro .sc{border:2px solid #111827;box-shadow:5px 5px 0 #111827;transition:transform .15s,box-shadow .15s}
+.stylecard--retro .sc:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 #111827}
+.stylecard--retro .sc__avatar{border:2px solid #111827}
 @media(max-width:560px){.tstml__stars{margin-left:0}.tstml__top{flex-wrap:wrap}.site-header h1{font-size:27px}}
 `;
 
