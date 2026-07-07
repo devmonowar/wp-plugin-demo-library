@@ -1,0 +1,54 @@
+{
+	"schema_version": 1,
+	"plugin": "advanced-testimonial",
+	"id": "video-reviews",
+	"name": "Video Reviews",
+	"groups": [
+		{ "name": "Video", "slug": "video" },
+		{ "name": "Written", "slug": "written" }
+	],
+	"testimonials": [
+		{
+			"title": "Sarah Mitchell",
+			"content": "Working with this team completely transformed our online presence. The process was smooth, communication was clear and the results speak for themselves.",
+			"meta": { "headline": "Transformed our online presence", "rating": "5", "company": "BrightFunnel", "designation": "Marketing Lead", "verified": "1", "video": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/videos/clip-sarah.mp4" },
+			"groups": [ "video" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/sarah-m.png"
+		},
+		{
+			"title": "David Okafor",
+			"content": "Outstanding support from day one. Every question answered, every deadline met — a partner we can genuinely rely on as we grow.",
+			"meta": { "headline": "Outstanding support from day one", "rating": "5", "company": "Northpeak", "designation": "Founder", "verified": "1", "video": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/videos/clip-david.mp4" },
+			"groups": [ "video" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/david-o.png"
+		},
+		{
+			"title": "Aiko Tanaka",
+			"content": "Beautiful work, clear communication and real attention to detail. Every review from our clients now feels personal and alive.",
+			"meta": { "headline": "Attention to detail you can feel", "rating": "5", "company": "Studio Lumen", "designation": "Designer", "verified": "1", "video": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/videos/clip-aiko.mp4" },
+			"groups": [ "video" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/aiko.png"
+		},
+		{
+			"title": "Carlos Rivera",
+			"content": "Quick, friendly answers and a product that stays out of the way. It simply works, release after release.",
+			"meta": { "headline": "Support that actually helps", "rating": "5", "company": "Vantage", "designation": "CTO", "verified": "1" },
+			"groups": [ "written" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/carlos-r.png"
+		},
+		{
+			"title": "Emma Bennett",
+			"content": "Real reviews with star ratings gave our shop instant credibility. Customers simply trust us more — and it shows in the numbers.",
+			"meta": { "headline": "Trust on autopilot", "rating": "4.5", "company": "Willow & Co", "designation": "Owner", "verified": "1" },
+			"groups": [ "written" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/emma-b.png"
+		},
+		{
+			"title": "Liam Novak",
+			"content": "No bloat, no fuss — just solid testimonials that load fast. A genuine joy to work with every day.",
+			"meta": { "headline": "Clean and reliable", "rating": "5", "company": "Craftbase", "designation": "Developer" },
+			"groups": [ "written" ],
+			"image": "https://devmonowar.github.io/wp-plugin-demo-library/advanced-testimonial/assets/images/liam-n.png"
+		}
+	]
+}
