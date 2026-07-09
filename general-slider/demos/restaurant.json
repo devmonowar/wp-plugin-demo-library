@@ -3,7 +3,7 @@
 	"plugin": "general-slider",
 	"id": "restaurant",
 	"name": "Restaurant",
-	"version": "1.0",
+	"version": "1.1",
 	"title": "Restaurant",
 	"slides": [
 		{
@@ -52,7 +52,7 @@
 		"accent": "#fbbf24",
 		"ken_burns": true,
 		"animate": true,
-		"thumbnails": false
+		"thumbnails": true
 	},
 	"custom_css": ".gs-slider .gs-slide__title,.gs-slider .gs-slide__sub,.gs-slider .gs-slide__text{text-shadow:0 2px 14px rgba(0,0,0,.55)}"
 }
