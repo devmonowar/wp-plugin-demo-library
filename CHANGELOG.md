@@ -6,6 +6,7 @@ Demo library changes. Adding or updating a demo does **not** require a plugin re
 ### General Slider
 - Added: **Photo Journal** demo — a magazine-style photo story wearing the Numbers skin (01 / 02 / 03 pagination) with fade transition and slow Ken Burns zoom over painterly landscapes. Requires plugin 2.3.6+. Original, self-made slide artwork.
 - Changed: three existing demos now wear matching skins (v1.1) — **Minimal Clean** → Minimal skin, **Creative Agency** → Soft skin, **Fullscreen Bold** → Corner skin. On plugin versions before 2.3.6 the skin key is simply ignored, so the demos still import fine.
+- Changed: **Restaurant** (v1.1) now uses thumbnail navigation — browse the dishes from the thumbnail strip.
 
 ## 2026-07-08
 ### General Slider
