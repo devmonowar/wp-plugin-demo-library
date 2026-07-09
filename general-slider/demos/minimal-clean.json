@@ -3,7 +3,7 @@
 	"plugin": "general-slider",
 	"id": "minimal-clean",
 	"name": "Minimal Clean",
-	"version": "1.0",
+	"version": "1.1",
 	"title": "Minimal Clean",
 	"slides": [
 		{
@@ -36,6 +36,7 @@
 	],
 	"settings": {
 		"preset": "minimal",
+		"skin": "minimal",
 		"transition": "fade",
 		"autoplay": true,
 		"speed": 5000,

@@ -1,0 +1,59 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "photo-journal",
+	"name": "Photo Journal",
+	"version": "1.0",
+	"title": "Photo Journal",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/photo-journal-dunes.jpg",
+			"alt": "Golden desert dunes under a soft evening sun",
+			"sub_heading": "CHAPTER ONE",
+			"heading": "Where the desert breathes",
+			"text": "Three days walking the golden dunes, chasing the last light.",
+			"btn_text": "Read the story",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/photo-journal-pines.jpg",
+			"alt": "Ranks of misty pine trees fading into fog",
+			"sub_heading": "CHAPTER TWO",
+			"heading": "Into the silent pines",
+			"text": "Morning fog rolls through the forest an hour before sunrise.",
+			"btn_text": "Read the story",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/photo-journal-cliff.jpg",
+			"alt": "Sea cliff with waves and gulls at golden hour",
+			"sub_heading": "CHAPTER THREE",
+			"heading": "The edge of the sea",
+			"text": "Waiting on the cliff while gulls carve circles over the surf.",
+			"btn_text": "Read the story",
+			"btn_url": "#"
+		}
+	],
+	"settings": {
+		"preset": "hero",
+		"skin": "numbers",
+		"transition": "fade",
+		"autoplay": true,
+		"speed": 7000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 25,
+		"overlay_style": "solid",
+		"height": 560,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#d97706",
+		"ken_burns": true,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}
