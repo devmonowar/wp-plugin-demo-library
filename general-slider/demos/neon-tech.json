@@ -1,0 +1,59 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "neon-tech",
+	"name": "Neon Tech",
+	"version": "1.0",
+	"title": "Neon Tech",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/neon-tech-cityline.jpg",
+			"alt": "Synthwave neon city skyline over a glowing grid",
+			"sub_heading": "SEASON FIVE",
+			"heading": "Enter the neon arena",
+			"text": "New maps, new ranks, one champion.",
+			"btn_text": "Play now",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/neon-tech-controller.jpg",
+			"alt": "Neon outlined game controller on a dark grid background",
+			"sub_heading": "BUILT FOR SPEED",
+			"heading": "Zero lag. Pure play.",
+			"text": "Engineered for competitive gaming from the ground up.",
+			"btn_text": "See the tech",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/neon-tech-livestats.jpg",
+			"alt": "Glowing live statistics panel with charts and a pulse line",
+			"sub_heading": "LIVE STATS",
+			"heading": "Watch the numbers climb",
+			"text": "Real-time leaderboards and match analytics.",
+			"btn_text": "View leaderboard",
+			"btn_url": "#"
+		}
+	],
+	"settings": {
+		"preset": "hero",
+		"skin": "neon",
+		"transition": "slide",
+		"autoplay": true,
+		"speed": 6000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 15,
+		"overlay_style": "solid",
+		"height": 560,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#22d3ee",
+		"ken_burns": false,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}

@@ -3,7 +3,7 @@
 	"plugin": "general-slider",
 	"id": "creative-agency",
 	"name": "Creative Agency",
-	"version": "1.0",
+	"version": "1.1",
 	"title": "Creative Agency",
 	"slides": [
 		{
@@ -36,6 +36,7 @@
 	],
 	"settings": {
 		"preset": "split",
+		"skin": "soft",
 		"transition": "slide",
 		"autoplay": true,
 		"speed": 5500,

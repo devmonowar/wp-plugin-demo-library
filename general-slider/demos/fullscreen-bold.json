@@ -3,7 +3,7 @@
 	"plugin": "general-slider",
 	"id": "fullscreen-bold",
 	"name": "Fullscreen Bold",
-	"version": "1.0",
+	"version": "1.1",
 	"title": "Fullscreen Bold",
 	"slides": [
 		{
@@ -36,6 +36,7 @@
 	],
 	"settings": {
 		"preset": "fullscreen",
+		"skin": "corner",
 		"transition": "fade",
 		"autoplay": true,
 		"speed": 5500,

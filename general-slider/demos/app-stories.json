@@ -1,0 +1,59 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "app-stories",
+	"name": "App Stories",
+	"version": "1.0",
+	"title": "App Stories",
+	"slides": [
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/app-stories-phone-hero.jpg",
+			"alt": "Mobile app interface mockups on an indigo gradient background",
+			"sub_heading": "MEET FLOWLY",
+			"heading": "Your day, beautifully organised",
+			"text": "Tasks, notes and reminders in one calm place.",
+			"btn_text": "Get the app",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/app-stories-dashboard.jpg",
+			"alt": "Analytics dashboard cards with charts on an indigo background",
+			"sub_heading": "STAY ON TOP",
+			"heading": "Track everything that matters",
+			"text": "Clear insights without the clutter.",
+			"btn_text": "See features",
+			"btn_url": "#"
+		},
+		{
+			"image_url": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/assets/images/app-stories-reviews.jpg",
+			"alt": "Five-star user review cards on a violet background",
+			"sub_heading": "COMMUNITY",
+			"heading": "Loved by thousands of users",
+			"text": "Join the people who plan their day with Flowly.",
+			"btn_text": "Read reviews",
+			"btn_url": "#"
+		}
+	],
+	"settings": {
+		"preset": "hero",
+		"skin": "progress",
+		"transition": "slide",
+		"autoplay": true,
+		"speed": 5000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 30,
+		"overlay_style": "solid",
+		"height": 560,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#6366f1",
+		"ken_burns": false,
+		"animate": true,
+		"thumbnails": false
+	},
+	"custom_css": ""
+}

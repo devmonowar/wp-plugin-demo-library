@@ -2,7 +2,16 @@
 
 Demo library changes. Adding or updating a demo does **not** require a plugin release.
 
+## 2026-07-09
+### General Slider
+- Added: **Photo Journal** demo — a magazine-style photo story wearing the Numbers skin (01 / 02 / 03 pagination) with fade transition and slow Ken Burns zoom over painterly landscapes. Requires plugin 2.3.6+. Original, self-made slide artwork.
+- Changed: three existing demos now wear matching skins (v1.1) — **Minimal Clean** → Minimal skin, **Creative Agency** → Soft skin, **Fullscreen Bold** → Corner skin. On plugin versions before 2.3.6 the skin key is simply ignored, so the demos still import fine.
+
 ## 2026-07-08
+### General Slider
+- Added: **App Stories** demo — a mobile-app hero slider wearing the new Stories Progress skin (segments fill over the autoplay interval). Requires plugin 2.3.6+. Original, self-made slide artwork.
+- Added: **Neon Tech** demo — a dark gaming/tech hero slider wearing the Neon skin (accent-glow arrows, dots and frame) over synthwave artwork. Requires plugin 2.3.6+.
+
 ### Advanced Testimonial
 - Added: **Video Reviews** demo — testimonials with self-hosted cartoon video clips (`videos/*.mp4`) that open in a lightbox, mixed with written reviews. Requires plugin 2.0.6+.
 - Root index: demo counts replaced with count-free wording (counts go stale).
