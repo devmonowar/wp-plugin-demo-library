@@ -1,0 +1,43 @@
+{
+	"schema_version": 1,
+	"plugin": "general-slider",
+	"id": "latest-posts",
+	"name": "Latest Posts",
+	"version": "1.0",
+	"title": "Latest Posts",
+	"slides": [],
+	"settings": {
+		"preset": "hero",
+		"skin": "soft",
+		"transition": "fade",
+		"autoplay": true,
+		"speed": 5000,
+		"loop": true,
+		"arrows": true,
+		"dots": true,
+		"overlay": 45,
+		"overlay_style": "gradient",
+		"height": 520,
+		"focus": "center",
+		"fit": "cover",
+		"per_page": 1,
+		"gap": 16,
+		"accent": "#2563eb",
+		"ken_burns": true,
+		"animation": "fade-up",
+		"thumbnails": false,
+		"source": {
+			"type": "dynamic",
+			"post_type": "post",
+			"taxonomy": "",
+			"term": 0,
+			"orderby": "date",
+			"order": "DESC",
+			"count": 6,
+			"show_excerpt": true,
+			"excerpt_words": 22,
+			"button_text": "Read more"
+		}
+	},
+	"custom_css": ""
+}

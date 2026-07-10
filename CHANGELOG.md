@@ -2,6 +2,10 @@
 
 Demo library changes. Adding or updating a demo does **not** require a plugin release.
 
+## 2026-07-10
+### General Slider
+- Added: **Latest Posts** demo — a dynamic slider that builds itself from your newest posts (featured image, title, excerpt, link) and refreshes as you publish. Requires plugin 2.3.7+ (the dynamic-slider feature).
+
 ## 2026-07-09
 ### General Slider
 - Added: **Photo Journal** demo — a magazine-style photo story wearing the Numbers skin (01 / 02 / 03 pagination) with fade transition and slow Ken Burns zoom over painterly landscapes. Requires plugin 2.3.6+. Original, self-made slide artwork.
