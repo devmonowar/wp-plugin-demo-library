@@ -52,6 +52,22 @@
 			"file": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/demos/photo-journal.json"
 		},
 		{
+			"id": "latest-posts",
+			"name": "Latest Posts",
+			"description": "A dynamic slider that builds itself from your newest blog posts — featured image, title, excerpt and link — and refreshes as you publish. Fade-up text, Ken Burns zoom.",
+			"version": "1.0",
+			"updated": "2026-07-10",
+			"requires": "2.3.7",
+			"category": "Blog",
+			"tags": [ "dynamic", "blog", "posts", "auto", "woocommerce" ],
+			"featured": true,
+			"new": true,
+			"preview": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/previews/latest-posts.jpg",
+			"preview_width": 1200,
+			"preview_height": 675,
+			"file": "https://devmonowar.github.io/wp-plugin-demo-library/general-slider/demos/latest-posts.json"
+		},
+		{
 			"id": "nature-showcase",
 			"name": "Nature Showcase",
 			"description": "A cinematic full-width hero slider with a gradient overlay, Ken Burns zoom and animated text.",
