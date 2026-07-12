@@ -1,0 +1,90 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "post-grid",
+    "title": "Post Grid",
+    "type": "section",
+    "content": [
+        {
+            "id": "g1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "64",
+                    "right": "20",
+                    "bottom": "8",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "gc1",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "gh",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "From our blog",
+                                "header_size": "h2",
+                                "align": "center"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "g2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "gc2",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "gw",
+                            "elType": "widget",
+                            "widgetType": "fwfe-post-grid",
+                            "settings": {
+                                "posts_per_page": 3,
+                                "columns": 3
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

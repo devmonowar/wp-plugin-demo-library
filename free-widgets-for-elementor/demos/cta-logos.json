@@ -1,0 +1,186 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "cta-logos",
+    "title": "CTA & Logos",
+    "type": "section",
+    "content": [
+        {
+            "id": "x1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "20",
+                    "bottom": "24",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "xc1",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "xw",
+                            "elType": "widget",
+                            "widgetType": "fwfe-cta",
+                            "settings": {
+                                "title": "Ready to build faster?",
+                                "title_tag": "h2",
+                                "description": "Start with free, lightweight widgets u2014 no upsells, ever.",
+                                "button_text": "Get started free",
+                                "button_link": {
+                                    "url": "#"
+                                },
+                                "button_icon": {
+                                    "value": "eicon-arrow-right",
+                                    "library": "eicons"
+                                },
+                                "title_color": "#1f2937",
+                                "desc_color": "#6b7280",
+                                "btn_bg": "#6366f1",
+                                "btn_color": "#ffffff"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "x2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "xc2",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "xh",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Trusted by teams everywhere",
+                                "header_size": "h3",
+                                "align": "center",
+                                "title_color": "#6b7280"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "xlw",
+                            "elType": "widget",
+                            "widgetType": "fwfe-logo-carousel",
+                            "settings": {
+                                "logos": [
+                                    {
+                                        "_id": "lg1",
+                                        "image": {
+                                            "id": 0,
+                                            "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/logo-northpeak.jpg"
+                                        },
+                                        "name": "Northpeak",
+                                        "link": {
+                                            "url": "#"
+                                        }
+                                    },
+                                    {
+                                        "_id": "lg2",
+                                        "image": {
+                                            "id": 0,
+                                            "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/logo-lumen.jpg"
+                                        },
+                                        "name": "Lumen",
+                                        "link": {
+                                            "url": "#"
+                                        }
+                                    },
+                                    {
+                                        "_id": "lg3",
+                                        "image": {
+                                            "id": 0,
+                                            "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/logo-vortex.jpg"
+                                        },
+                                        "name": "Vortex",
+                                        "link": {
+                                            "url": "#"
+                                        }
+                                    },
+                                    {
+                                        "_id": "lg4",
+                                        "image": {
+                                            "id": 0,
+                                            "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/logo-cascade.jpg"
+                                        },
+                                        "name": "Cascade",
+                                        "link": {
+                                            "url": "#"
+                                        }
+                                    },
+                                    {
+                                        "_id": "lg5",
+                                        "image": {
+                                            "id": 0,
+                                            "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/logo-nimbus.jpg"
+                                        },
+                                        "name": "Nimbus",
+                                        "link": {
+                                            "url": "#"
+                                        }
+                                    },
+                                    {
+                                        "_id": "lg6",
+                                        "image": {
+                                            "id": 0,
+                                            "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/logo-orbit.jpg"
+                                        },
+                                        "name": "Orbit",
+                                        "link": {
+                                            "url": "#"
+                                        }
+                                    }
+                                ],
+                                "per_view": 5,
+                                "per_view_tablet": 3,
+                                "per_view_mobile": 2,
+                                "gap": 32,
+                                "autoplay": "yes",
+                                "loop": "yes"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

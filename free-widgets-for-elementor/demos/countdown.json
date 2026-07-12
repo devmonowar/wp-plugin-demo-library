@@ -1,0 +1,134 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "countdown",
+    "title": "Countdown Banner",
+    "type": "section",
+    "content": [
+        {
+            "id": "d1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#4f46e5",
+                "padding": {
+                    "unit": "px",
+                    "top": "72",
+                    "right": "20",
+                    "bottom": "16",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "dc1",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "dh",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Launching soon",
+                                "header_size": "h2",
+                                "align": "center",
+                                "title_color": "#ffffff"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#4f46e5",
+                "padding": {
+                    "unit": "px",
+                    "top": "4",
+                    "right": "20",
+                    "bottom": "40",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "dc2",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "dw",
+                            "elType": "widget",
+                            "widgetType": "fwfe-countdown",
+                            "settings": {
+                                "due_date": "2027-06-01 12:00:00"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d3",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#4f46e5",
+                "padding": {
+                    "unit": "px",
+                    "top": "4",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "dc3",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "dbtn",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Notify me",
+                                "link": {
+                                    "url": "#"
+                                },
+                                "align": "center",
+                                "size": "md"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

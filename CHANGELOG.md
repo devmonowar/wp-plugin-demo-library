@@ -2,6 +2,12 @@
 
 Demo library changes. Adding or updating a demo does **not** require a plugin release.
 
+## 2026-07-12
+### Free Widgets For Elementor
+- Added: **Demo Library** for Free Widgets For Elementor — seven ready-made Elementor sections that import as saved templates (with their images), each built entirely with the free plugin's widgets. Requires plugin 2.0.3+ (the Demo Library screen). Demos: Pricing Section, Feature Grid, Stats Band, Team Section, Testimonial Row, CTA & Logos, Hero.
+- Added: gallery generator `build-free-widgets-for-elementor.js` (browsable gallery + per-demo pages + shared `site.css`). All preview/illustration/avatar/logo artwork is original and self-made (CC0).
+- Root index: added a Free Widgets For Elementor card.
+
 ## 2026-07-10
 ### General Slider
 - Added: **Latest Posts** demo — a dynamic slider that builds itself from your newest posts (featured image, title, excerpt, link) and refreshes as you publish. Requires plugin 2.3.7+ (the dynamic-slider feature).
