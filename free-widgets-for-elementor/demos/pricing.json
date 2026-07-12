@@ -1,0 +1,156 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "pricing",
+    "title": "Pricing Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "p1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "64",
+                    "right": "20",
+                    "bottom": "8",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "pc1",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "ph",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Simple, transparent pricing",
+                                "header_size": "h2",
+                                "align": "center"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "p2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "cpa",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wpa",
+                            "elType": "widget",
+                            "widgetType": "fwfe-pricing-table",
+                            "settings": {
+                                "title": "Starter",
+                                "currency": "$",
+                                "price": "12",
+                                "period": "/mo",
+                                "featured": "",
+                                "badge_text": "",
+                                "button_text": "Choose Starter",
+                                "button_link": {
+                                    "url": "#"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "cpb",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wpb",
+                            "elType": "widget",
+                            "widgetType": "fwfe-pricing-table",
+                            "settings": {
+                                "title": "Pro",
+                                "currency": "$",
+                                "price": "29",
+                                "period": "/mo",
+                                "featured": "yes",
+                                "badge_text": "Most popular",
+                                "button_text": "Choose Pro",
+                                "button_link": {
+                                    "url": "#"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "cpc",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wpc",
+                            "elType": "widget",
+                            "widgetType": "fwfe-pricing-table",
+                            "settings": {
+                                "title": "Business",
+                                "currency": "$",
+                                "price": "79",
+                                "period": "/mo",
+                                "featured": "",
+                                "badge_text": "",
+                                "button_text": "Contact sales",
+                                "button_link": {
+                                    "url": "#"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

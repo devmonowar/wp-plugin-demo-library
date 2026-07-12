@@ -1,0 +1,156 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "team",
+    "title": "Team Section",
+    "type": "section",
+    "content": [
+        {
+            "id": "t1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "64",
+                    "right": "20",
+                    "bottom": "8",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "tc1",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "th",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Meet the team",
+                                "header_size": "h2",
+                                "align": "center"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "cta",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wta",
+                            "elType": "widget",
+                            "widgetType": "fwfe-team",
+                            "settings": {
+                                "image": {
+                                    "id": 0,
+                                    "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/team-ava-bennett.jpg"
+                                },
+                                "name": "Ava Bennett",
+                                "position": "Founder & CEO",
+                                "name_tag": "h3",
+                                "name_color": "#1f2937",
+                                "position_color": "#6366f1",
+                                "bio_color": "#6b7280"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "ctb",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wtb",
+                            "elType": "widget",
+                            "widgetType": "fwfe-team",
+                            "settings": {
+                                "image": {
+                                    "id": 0,
+                                    "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/team-marcus-lee.jpg"
+                                },
+                                "name": "Marcus Lee",
+                                "position": "Head of Product",
+                                "name_tag": "h3",
+                                "name_color": "#1f2937",
+                                "position_color": "#6366f1",
+                                "bio_color": "#6b7280"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "ctc",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wtc",
+                            "elType": "widget",
+                            "widgetType": "fwfe-team",
+                            "settings": {
+                                "image": {
+                                    "id": 0,
+                                    "url": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/assets/images/team-sofia-duarte.jpg"
+                                },
+                                "name": "Sofia Duarte",
+                                "position": "Lead Designer",
+                                "name_tag": "h3",
+                                "name_color": "#1f2937",
+                                "position_color": "#6366f1",
+                                "bio_color": "#6b7280"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "flip-box",
+    "title": "Flip Box Row",
+    "type": "section",
+    "content": [
+        {
+            "id": "f1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "64",
+                    "right": "20",
+                    "bottom": "8",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "fc1",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "fh",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Explore what we offer",
+                                "header_size": "h2",
+                                "align": "center"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f8fafc",
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "cfa",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wfa",
+                            "elType": "widget",
+                            "widgetType": "fwfe-flip-box",
+                            "settings": {
+                                "front_icon": {
+                                    "value": "eicon-star",
+                                    "library": "eicons"
+                                },
+                                "front_title": "Design",
+                                "front_text": "Beautiful, on-brand layouts.",
+                                "back_title": "Design that converts",
+                                "back_text": "Pixel-perfect and responsive on every device.",
+                                "button_text": "Learn more",
+                                "button_link": {
+                                    "url": "#"
+                                },
+                                "flip_trigger": "hover"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "cfb",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wfb",
+                            "elType": "widget",
+                            "widgetType": "fwfe-flip-box",
+                            "settings": {
+                                "front_icon": {
+                                    "value": "eicon-flash-o",
+                                    "library": "eicons"
+                                },
+                                "front_title": "Speed",
+                                "front_text": "Fast-loading, lightweight pages.",
+                                "back_title": "Built for performance",
+                                "back_text": "Only the assets a page needs are ever loaded.",
+                                "button_text": "Learn more",
+                                "button_link": {
+                                    "url": "#"
+                                },
+                                "flip_trigger": "hover"
+                            },
+                            "elements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "cfc",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "wfc",
+                            "elType": "widget",
+                            "widgetType": "fwfe-flip-box",
+                            "settings": {
+                                "front_icon": {
+                                    "value": "eicon-lock",
+                                    "library": "eicons"
+                                },
+                                "front_title": "Security",
+                                "front_text": "Safe, escaped, standard code.",
+                                "back_title": "Secure by default",
+                                "back_text": "Clean code that keeps your site safe.",
+                                "button_text": "Learn more",
+                                "button_link": {
+                                    "url": "#"
+                                },
+                                "flip_trigger": "hover"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

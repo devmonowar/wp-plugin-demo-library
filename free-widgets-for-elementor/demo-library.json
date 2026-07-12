@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "plugin": "free-widgets-for-elementor",
+  "demos": [
+    {
+      "id": "pricing",
+      "name": "Pricing Section",
+      "description": "A clean pricing section with a highlighted popular plan.",
+      "version": "1.0.0",
+      "requires": "2.0.3",
+      "category": "Pricing",
+      "tags": ["pricing", "plans", "pricing table"],
+      "widgets": ["pricing-table"],
+      "featured": true,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/pricing.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/pricing.json"
+    },
+    {
+      "id": "team",
+      "name": "Team Section",
+      "description": "A three-column team section with photos, roles and social links.",
+      "version": "1.0.0",
+      "requires": "2.0.3",
+      "category": "Team",
+      "tags": ["team", "about", "people"],
+      "widgets": ["team"],
+      "featured": false,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/team.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/team.json"
+    },
+    {
+      "id": "cta-logos",
+      "name": "CTA & Logos",
+      "description": "A call-to-action band above a scrolling logo carousel of trusted brands.",
+      "version": "1.0.0",
+      "requires": "2.0.3",
+      "category": "Call to action",
+      "tags": ["cta", "logos", "logo carousel"],
+      "widgets": ["cta", "logo-carousel"],
+      "featured": false,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/cta-logos.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/cta-logos.json"
+    },
+    {
+      "id": "flip-box",
+      "name": "Flip Box Row",
+      "description": "Three interactive flip boxes that reveal a back face with a call to action.",
+      "version": "1.0.0",
+      "requires": "2.0.3",
+      "category": "Features",
+      "tags": ["flip box", "features", "services"],
+      "widgets": ["flip-box"],
+      "featured": false,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/flip-box.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/flip-box.json"
+    },
+    {
+      "id": "countdown",
+      "name": "Countdown Banner",
+      "description": "A bold launch banner with an animated countdown timer and a call-to-action button.",
+      "version": "1.0.0",
+      "requires": "2.0.3",
+      "category": "Countdown",
+      "tags": ["countdown", "timer", "launch"],
+      "widgets": ["countdown"],
+      "featured": false,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/countdown.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/countdown.json"
+    },
+    {
+      "id": "post-grid",
+      "name": "Post Grid",
+      "description": "Your latest posts in a responsive grid with image, meta, excerpt and read-more.",
+      "version": "1.0.0",
+      "requires": "2.0.3",
+      "category": "Blog",
+      "tags": ["posts", "blog", "grid"],
+      "widgets": ["post-grid"],
+      "featured": false,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/post-grid.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/post-grid.json"
+    }
+  ]
+}
