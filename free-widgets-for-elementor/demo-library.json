@@ -12,7 +12,7 @@
       "tags": ["pricing", "plans", "pricing table"],
       "widgets": ["pricing-table"],
       "featured": true,
-      "new": true,
+      "new": false,
       "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/pricing.jpg",
       "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/pricing.json"
     },
@@ -26,7 +26,7 @@
       "tags": ["team", "about", "people"],
       "widgets": ["team"],
       "featured": false,
-      "new": true,
+      "new": false,
       "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/team.jpg",
       "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/team.json"
     },
@@ -40,7 +40,7 @@
       "tags": ["cta", "logos", "logo carousel"],
       "widgets": ["cta", "logo-carousel"],
       "featured": false,
-      "new": true,
+      "new": false,
       "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/cta-logos.jpg",
       "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/cta-logos.json"
     },
@@ -54,7 +54,7 @@
       "tags": ["flip box", "features", "services"],
       "widgets": ["flip-box"],
       "featured": false,
-      "new": true,
+      "new": false,
       "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/flip-box.jpg",
       "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/flip-box.json"
     },
@@ -68,7 +68,7 @@
       "tags": ["countdown", "timer", "launch"],
       "widgets": ["countdown"],
       "featured": false,
-      "new": true,
+      "new": false,
       "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/countdown.jpg",
       "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/countdown.json"
     },
@@ -82,9 +82,23 @@
       "tags": ["posts", "blog", "grid"],
       "widgets": ["post-grid"],
       "featured": false,
-      "new": true,
+      "new": false,
       "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/post-grid.jpg",
       "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/post-grid.json"
+    },
+    {
+      "id": "table-of-contents",
+      "name": "Documentation Article",
+      "description": "A documentation-style article with an auto-built, clickable table of contents that follows the reader down the page.",
+      "version": "1.0.0",
+      "requires": "2.0.4",
+      "category": "Navigation",
+      "tags": ["table of contents", "toc", "documentation", "navigation"],
+      "widgets": ["table-of-contents"],
+      "featured": false,
+      "new": true,
+      "preview": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/previews/table-of-contents.jpg",
+      "file": "https://devmonowar.github.io/wp-plugin-demo-library/free-widgets-for-elementor/demos/table-of-contents.json"
     }
   ]
 }
