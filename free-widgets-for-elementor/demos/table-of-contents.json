@@ -1,0 +1,245 @@
+{
+    "schema_version": 1,
+    "plugin": "free-widgets-for-elementor",
+    "id": "table-of-contents",
+    "title": "Documentation Article",
+    "type": "section",
+    "content": [
+        {
+            "id": "t1",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                    "unit": "px",
+                    "top": "64",
+                    "right": "20",
+                    "bottom": "8",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "t1c",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "th1",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "How to Get Started",
+                                "header_size": "h1",
+                                "align": "center"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "th2",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p style=\"text-align: center;\">A complete walkthrough, with a table of contents that follows you down the page.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "20",
+                    "bottom": "8",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "t2c",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "twtoc",
+                            "elType": "widget",
+                            "widgetType": "fwfe-table-of-contents",
+                            "settings": {
+                                "box_max_width": {
+                                    "unit": "px",
+                                    "size": 360
+                                }
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "t3",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "20",
+                    "bottom": "72",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "isInner": false,
+            "elements": [
+                {
+                    "id": "t3c",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "isInner": false,
+                    "elements": [
+                        {
+                            "id": "th_intro",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Introduction",
+                                "header_size": "h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "tt_intro",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Welcome! This guide walks you through everything you need to know, from installation to advanced configuration.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "th_start",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Getting Started",
+                                "header_size": "h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "tt_start",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Before you begin, make sure your environment meets the minimum requirements listed below.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "th_install",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Installation",
+                                "header_size": "h3"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "tt_install",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Download the package and activate it from your dashboard. No extra setup required.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "th_config",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Configuration",
+                                "header_size": "h3"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "tt_config",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Open Settings and adjust the defaults to match your site's design.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "th_adv",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Advanced Usage",
+                                "header_size": "h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "tt_adv",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Power users can fine-tune behaviour further using the advanced options.</p>"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "th_concl",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Conclusion",
+                                "header_size": "h2"
+                            },
+                            "elements": []
+                        },
+                        {
+                            "id": "tt_concl",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>That's it — you're ready to go. Use the table of contents above to jump back to any section.</p>"
+                            },
+                            "elements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
