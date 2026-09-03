@@ -2,6 +2,10 @@
 
 Demo library changes. Adding or updating a demo does **not** require a plugin release.
 
+## 2026-09-03
+### Janitorix Media Audit
+- Root index: added a **Janitorix Media Audit** card under a new "Other plugins by devmonowar" heading. The plugin has no Demo Library screen and reads nothing from this repository, so the card carries no demo links; it points at WordPress.org, the GitHub repository and the unused-images guide instead, and says plainly that there is nothing to import.
+
 ## 2026-07-12
 ### Free Widgets For Elementor
 - Added: **Demo Library** for Free Widgets For Elementor — seven ready-made Elementor sections that import as saved templates (with their images), each built entirely with the free plugin's widgets. Requires plugin 2.0.3+ (the Demo Library screen). Demos: Pricing Section, Feature Grid, Stats Band, Team Section, Testimonial Row, CTA & Logos, Hero.
