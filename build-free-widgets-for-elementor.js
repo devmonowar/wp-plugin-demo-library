@@ -63,6 +63,8 @@ function head(title, description, cssHref, canonical) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://devmonowar.github.io/assets/img/og-image.jpg">
+<meta name="author" content="Monowar Hossain">
 <link rel="stylesheet" href="${esc(cssHref)}">
 </head>
 <body>`;
@@ -93,12 +95,13 @@ function buildIndex() {
 
 	const html = `${head(
 		'Free Widgets For Elementor — Demo Library',
-		'Browse ready-made Elementor sections built with the free Free Widgets For Elementor plugin: pricing, features, stats, team, testimonials, hero and more. Import any section in one click.',
+		'Browse ready-made Elementor sections built with the free Free Widgets For Elementor plugin. Import any section in one click.',
 		'site.css',
 		BASE
 	)}
 <header class="site-header">
 	<div class="wrap">
+		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
 		<p class="eyebrow">WordPress plugin</p>
 		<h1>Free Widgets For Elementor — Demo Library</h1>
 		<p class="lead">Ready-made Elementor sections you can import in one click from your WordPress dashboard — each built entirely with the free <a href="${PLUGIN_WPORG}">Free Widgets For Elementor</a> plugin.</p>
@@ -194,6 +197,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .site-header h1{margin:0 0 10px;font-size:34px;line-height:1.15}
 .lead{margin:0;color:var(--muted);max-width:660px;font-size:18px}
 .crumb{margin:0 0 14px;font-size:14px}
+.sitenav{margin:0 0 14px;font-size:14px}
 .links{margin:22px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 20px;border-radius:8px;font-weight:600}
 .btn:hover{opacity:.9;text-decoration:none}

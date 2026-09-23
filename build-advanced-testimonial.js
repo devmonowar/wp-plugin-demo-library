@@ -93,6 +93,8 @@ function head(title, description, cssHref, canonical) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://devmonowar.github.io/assets/img/og-image.jpg">
+<meta name="author" content="Monowar Hossain">
 <link rel="stylesheet" href="${esc(cssHref)}">
 </head>
 <body>`;
@@ -138,13 +140,8 @@ function buildIndex() {
 		})
 		.join('\n');
 
-	const nameList = full.map((d) => d.name);
 	const galleryDesc =
-		'Browse ready-made Advanced Testimonial demos for WordPress: ' +
-		(nameList.length > 1
-			? nameList.slice(0, -1).join(', ') + ' and ' + nameList[nameList.length - 1]
-			: nameList[0] || '') +
-		' review sets. Import any demo in one click.';
+		'Ready-made Advanced Testimonial demo sets for WordPress. Import any demo in one click.';
 
 	const html = `${head(
 		'Advanced Testimonial — Demo Library',
@@ -154,6 +151,7 @@ function buildIndex() {
 	)}
 <header class="site-header">
 	<div class="wrap">
+		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
 		<nav class="crumbs" aria-label="Breadcrumb"><a href="../">All Plugins</a> › <span>Advanced Testimonial</span></nav>
 		${breadcrumbLd([{ name: 'All Plugins', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }])}
 		<p class="eyebrow">WordPress plugin</p>
@@ -292,6 +290,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .compat{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
 .compat__item{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:6px 14px}
 .compat__item--ok{color:#0f766e;background:#f0fdfa;border-color:#99f6e4}
+.sitenav{margin:0 0 14px;font-size:14px}
 .links{margin:22px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 20px;border-radius:8px;font-weight:600}
 .btn:hover{opacity:.9;text-decoration:none}
