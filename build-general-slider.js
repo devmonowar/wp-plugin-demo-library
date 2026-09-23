@@ -121,7 +121,7 @@ function buildIndex() {
 	)}
 <header class="site-header">
 	<div class="wrap">
-		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
+		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/about/">About</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
 		<nav class="crumbs" aria-label="Breadcrumb"><a href="${SITE}/">Home</a> › <a href="${ROOT_URL}">Demo Library</a> › <span>General Slider</span></nav>
 		${breadcrumbLd([{ name: 'Home', url: SITE + '/' }, { name: 'Demo Library', url: ROOT_URL }, { name: 'General Slider', url: BASE }])}
 		${webpageLd('General Slider — Demo Library', BASE)}
@@ -189,6 +189,7 @@ function buildDemo(d) {
 	)}
 <header class="site-header site-header--sub">
 	<div class="wrap">
+		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/about/">About</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
 		<nav class="crumbs" aria-label="Breadcrumb"><a href="${SITE}/">Home</a> › <a href="${ROOT_URL}">Demo Library</a> › <a href="${BASE}">General Slider</a> › <span>${esc(d.name)}</span></nav>
 		${breadcrumbLd([{ name: 'Home', url: SITE + '/' }, { name: 'Demo Library', url: ROOT_URL }, { name: 'General Slider', url: BASE }, { name: d.name, url: `${BASE}${d.id}/` }])}
 		${webpageLd(`${d.name} — General Slider demo`, `${BASE}${d.id}/`)}
