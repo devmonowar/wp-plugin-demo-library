@@ -22,7 +22,6 @@ const GITHUB = 'https://github.com/devmonowar/general-slider';
 const SITE = 'https://devmonowar.github.io';
 const ROOT_URL = 'https://devmonowar.github.io/wp-plugin-demo-library/';
 const PLUGIN_PAGE = 'https://devmonowar.github.io/general-slider/';
-const PLUGIN_NAME = 'General Slider';
 
 const esc = (s) =>
 	String(s == null ? '' : s)

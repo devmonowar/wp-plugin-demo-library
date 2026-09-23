@@ -23,7 +23,6 @@ const GITHUB = 'https://github.com/devmonowar/free-widgets-for-elementor';
 const SITE = 'https://devmonowar.github.io';
 const ROOT_URL = 'https://devmonowar.github.io/wp-plugin-demo-library/';
 const PLUGIN_PAGE = 'https://devmonowar.github.io/free-widgets-for-elementor/';
-const PLUGIN_NAME = 'Free Widgets For Elementor';
 
 const esc = (s) =>
 	String(s == null ? '' : s)
