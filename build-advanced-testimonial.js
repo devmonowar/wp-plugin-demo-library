@@ -22,6 +22,8 @@ const BASE = 'https://devmonowar.github.io/wp-plugin-demo-library/advanced-testi
 const PLUGIN_WPORG = 'https://wordpress.org/plugins/advanced-testimonial/';
 const GITHUB = 'https://github.com/devmonowar/advanced-testimonial';
 const ROOT_URL = 'https://devmonowar.github.io/wp-plugin-demo-library/';
+const SITE = 'https://devmonowar.github.io';
+const PLUGIN_PAGE = 'https://devmonowar.github.io/advanced-testimonial/';
 
 const esc = (s) =>
 	String(s == null ? '' : s)
@@ -67,6 +69,11 @@ function breadcrumbLd(items) {
 	return '<script type="application/ld+json">' + JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: list }) + '</script>';
 }
 
+// WebPage node so demo pages are first-class pages, not fragments.
+function webpageLd(title, url) {
+	return '<script type="application/ld+json">' + JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', '@id': url, url: url, name: title, isPartOf: { '@id': SITE + '/#website' }, author: { '@id': SITE + '/#person' } }) + '</script>';
+}
+
 const manifest = readJSON(path.join(ROOT, 'demo-library.json'));
 const demos = manifest.demos || [];
 
@@ -93,6 +100,7 @@ function head(title, description, cssHref, canonical) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="${esc(canonical)}">
 <meta property="og:image" content="https://devmonowar.github.io/assets/img/og-image.jpg">
 <meta name="author" content="Monowar Hossain">
 <link rel="stylesheet" href="${esc(cssHref)}">
@@ -152,8 +160,9 @@ function buildIndex() {
 <header class="site-header">
 	<div class="wrap">
 		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
-		<nav class="crumbs" aria-label="Breadcrumb"><a href="../">All Plugins</a> › <span>Advanced Testimonial</span></nav>
-		${breadcrumbLd([{ name: 'All Plugins', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }])}
+		<nav class="crumbs" aria-label="Breadcrumb"><a href="${SITE}/">Home</a> › <a href="${ROOT_URL}">Demo Library</a> › <span>Advanced Testimonial</span></nav>
+		${breadcrumbLd([{ name: 'Home', url: SITE + '/' }, { name: 'Demo Library', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }])}
+		${webpageLd('Advanced Testimonial — Demo Library', BASE)}
 		<p class="eyebrow">WordPress plugin</p>
 		<h1>Advanced Testimonial — Demo Library</h1>
 		<p class="lead">Ready-made testimonial sets you can import in one click from your WordPress dashboard — each built with the free <a href="${PLUGIN_WPORG}">Advanced Testimonial</a> plugin.</p>
@@ -226,8 +235,9 @@ function buildDemo(d) {
 	const html = `${head(`${d.name} — Advanced Testimonial demo`, d.description, '../site.css', `${BASE}${d.id}/`)}
 <header class="site-header site-header--sub">
 	<div class="wrap">
-		<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">All Plugins</a> › <a href="../">Advanced Testimonial</a> › <span>${esc(d.name)}</span></nav>
-		${breadcrumbLd([{ name: 'All Plugins', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }, { name: d.name, url: `${BASE}${d.id}/` }])}
+		<nav class="crumbs" aria-label="Breadcrumb"><a href="${SITE}/">Home</a> › <a href="${ROOT_URL}">Demo Library</a> › <a href="${BASE}">Advanced Testimonial</a> › <span>${esc(d.name)}</span></nav>
+		${breadcrumbLd([{ name: 'Home', url: SITE + '/' }, { name: 'Demo Library', url: ROOT_URL }, { name: 'Advanced Testimonial', url: BASE }, { name: d.name, url: `${BASE}${d.id}/` }])}
+		${webpageLd(`${d.name} — Advanced Testimonial demo`, `${BASE}${d.id}/`)}
 		<div class="card__badges">${badges(d)}${d.category ? `<span class="chip">${esc(d.category)}</span>` : ''}</div>
 		<h1>${esc(d.name)}</h1>
 		<p class="lead">${esc(d.description)}</p>

@@ -19,6 +19,10 @@ const ROOT = path.join(__dirname, 'general-slider');
 const BASE = 'https://devmonowar.github.io/wp-plugin-demo-library/general-slider/';
 const PLUGIN_WPORG = 'https://wordpress.org/plugins/general-slider/';
 const GITHUB = 'https://github.com/devmonowar/general-slider';
+const SITE = 'https://devmonowar.github.io';
+const ROOT_URL = 'https://devmonowar.github.io/wp-plugin-demo-library/';
+const PLUGIN_PAGE = 'https://devmonowar.github.io/general-slider/';
+const PLUGIN_NAME = 'General Slider';
 
 const esc = (s) =>
 	String(s == null ? '' : s)
@@ -60,11 +64,30 @@ function head(title, description, cssHref, canonical) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="${esc(canonical)}">
 <meta property="og:image" content="https://devmonowar.github.io/assets/img/og-image.jpg">
 <meta name="author" content="Monowar Hossain">
 <link rel="stylesheet" href="${esc(cssHref)}">
 </head>
 <body>`;
+}
+
+// BreadcrumbList JSON-LD for richer search results. Starts at Home —
+// these pages live under the main site, not in a vacuum.
+function breadcrumbLd(items) {
+	const list = items.map((it, i) => {
+		const node = { '@type': 'ListItem', position: i + 1, name: it.name };
+		if (it.url) {
+			node.item = it.url;
+		}
+		return node;
+	});
+	return '<scr' + 'ipt type="application/ld+json">' + JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: list }) + '</scr' + 'ipt>';
+}
+
+// WebPage node so demo pages are first-class pages, not fragments.
+function webpageLd(title, url) {
+	return '<scr' + 'ipt type="application/ld+json">' + JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', '@id': url, url: url, name: title, isPartOf: { '@id': SITE + '/#website' }, author: { '@id': SITE + '/#person' } }) + '</scr' + 'ipt>';
 }
 
 function badges(d) {
@@ -100,9 +123,12 @@ function buildIndex() {
 <header class="site-header">
 	<div class="wrap">
 		<nav class="sitenav" aria-label="Site"><a href="https://devmonowar.github.io/">Home</a> · <a href="https://devmonowar.github.io/plugins/">Plugins</a> · <a href="https://devmonowar.github.io/blog/">Blog</a> · <a href="https://devmonowar.github.io/contact/">Contact</a></nav>
+		<nav class="crumbs" aria-label="Breadcrumb"><a href="${SITE}/">Home</a> › <a href="${ROOT_URL}">Demo Library</a> › <span>General Slider</span></nav>
+		${breadcrumbLd([{ name: 'Home', url: SITE + '/' }, { name: 'Demo Library', url: ROOT_URL }, { name: 'General Slider', url: BASE }])}
+		${webpageLd('General Slider — Demo Library', BASE)}
 		<p class="eyebrow">WordPress plugin</p>
 		<h1>General Slider — Demo Library</h1>
-		<p class="lead">${esc(full.length)} ready-made sliders you can import in one click from your WordPress dashboard — each built with the free <a href="${PLUGIN_WPORG}">General Slider</a> plugin.</p>
+		<p class="lead">${esc(full.length)} ready-made sliders you can import in one click from your WordPress dashboard — each built with the free <a href="${PLUGIN_WPORG}">General Slider</a> plugin. New here? <a href="${PLUGIN_PAGE}">Read what the plugin does first</a>.</p>
 		<p class="links"><a class="btn" href="${PLUGIN_WPORG}">Get the plugin</a> <a class="btn btn--ghost" href="${GITHUB}">GitHub</a></p>
 	</div>
 </header>
@@ -111,7 +137,7 @@ function buildIndex() {
 ${cards}
 	</div>
 </main>
-<footer class="site-footer"><div class="wrap"><p>General Slider demo library · <a href="${PLUGIN_WPORG}">WordPress.org</a> · <a href="${GITHUB}">GitHub</a></p></div></footer>
+<footer class="site-footer"><div class="wrap"><p>General Slider demo library · <a href="${PLUGIN_PAGE}">Plugin page</a> · <a href="${PLUGIN_WPORG}">WordPress.org</a> · <a href="${GITHUB}">GitHub</a></p></div></footer>
 </body></html>`;
 
 	fs.writeFileSync(path.join(ROOT, 'index.html'), html);
@@ -164,6 +190,9 @@ function buildDemo(d) {
 	)}
 <header class="site-header site-header--sub">
 	<div class="wrap">
+		<nav class="crumbs" aria-label="Breadcrumb"><a href="${SITE}/">Home</a> › <a href="${ROOT_URL}">Demo Library</a> › <a href="${BASE}">General Slider</a> › <span>${esc(d.name)}</span></nav>
+		${breadcrumbLd([{ name: 'Home', url: SITE + '/' }, { name: 'Demo Library', url: ROOT_URL }, { name: 'General Slider', url: BASE }, { name: d.name, url: `${BASE}${d.id}/` }])}
+		${webpageLd(`${d.name} — General Slider demo`, `${BASE}${d.id}/`)}
 		<p class="crumb"><a href="../">← All demos</a></p>
 		<div class="card__badges">${badges(d)}${d.category ? `<span class="chip">${esc(d.category)}</span>` : ''}</div>
 		<h1>${esc(d.name)}</h1>
